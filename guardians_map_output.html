@@ -1,0 +1,2273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d5b02c1caa0c4ce2a57582f1c5fc8162 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d5b02c1caa0c4ce2a57582f1c5fc8162" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d5b02c1caa0c4ce2a57582f1c5fc8162 = L.map(
+                "map_d5b02c1caa0c4ce2a57582f1c5fc8162",
+                {
+                    center: [12.962700000000002, 77.6081909090909],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_18a871b010e9541e025ddf08b3b20f02 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_18a871b010e9541e025ddf08b3b20f02.addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var marker_1871596f99d820f31c873219b71a5b60 = L.marker(
+                [12.9692, 77.7495],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_13b133f8e6f88653b071e826de708c94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "ok-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_70f0bf510510314109c837c96b3636d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe0a33db69d63529df2738fcdd0cc321 = $(`<div id="html_fe0a33db69d63529df2738fcdd0cc321" style="width: 100.0%; height: 100.0%;">✅ Safe Zone: Whitefield</div>`)[0];
+                popup_70f0bf510510314109c837c96b3636d4.setContent(html_fe0a33db69d63529df2738fcdd0cc321);
+            
+        
+
+        marker_1871596f99d820f31c873219b71a5b60.bindPopup(popup_70f0bf510510314109c837c96b3636d4)
+        ;
+
+        
+    
+    
+                marker_1871596f99d820f31c873219b71a5b60.setIcon(icon_13b133f8e6f88653b071e826de708c94);
+            
+    
+            var marker_a347d37cc68d468a5957f8c07a142b3b = L.marker(
+                [12.9568, 77.7],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_d14919e66305bcad63d7b9b29f12c3df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "ok-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8dca37d60102eca1aff1e6ab2960912c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a26d812ea00810e9030a84a8d58e39b4 = $(`<div id="html_a26d812ea00810e9030a84a8d58e39b4" style="width: 100.0%; height: 100.0%;">✅ Safe Zone: Marathahalli</div>`)[0];
+                popup_8dca37d60102eca1aff1e6ab2960912c.setContent(html_a26d812ea00810e9030a84a8d58e39b4);
+            
+        
+
+        marker_a347d37cc68d468a5957f8c07a142b3b.bindPopup(popup_8dca37d60102eca1aff1e6ab2960912c)
+        ;
+
+        
+    
+    
+                marker_a347d37cc68d468a5957f8c07a142b3b.setIcon(icon_d14919e66305bcad63d7b9b29f12c3df);
+            
+    
+            var marker_609503fbda1c0043d89065ce9bcfc764 = L.marker(
+                [12.978, 77.7512],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_099f524caf325b915e6ff8d81cba5d95 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "ok-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cac48d4da1ec284f4af98ae931c93f60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_888e6d70787c9f00308e0054f82edc7c = $(`<div id="html_888e6d70787c9f00308e0054f82edc7c" style="width: 100.0%; height: 100.0%;">✅ Safe Zone: Whitefield Industrial Area</div>`)[0];
+                popup_cac48d4da1ec284f4af98ae931c93f60.setContent(html_888e6d70787c9f00308e0054f82edc7c);
+            
+        
+
+        marker_609503fbda1c0043d89065ce9bcfc764.bindPopup(popup_cac48d4da1ec284f4af98ae931c93f60)
+        ;
+
+        
+    
+    
+                marker_609503fbda1c0043d89065ce9bcfc764.setIcon(icon_099f524caf325b915e6ff8d81cba5d95);
+            
+    
+            var marker_895b665fca259e55bc097d2bbf2d8ab2 = L.marker(
+                [12.97820900900901, 77.75874483695073],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_a690ac4787bd4a9f2ec5446f6e988fdc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85304a07e7ffddeb7373ec0ec435e972 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_897d72ed2f0e4f2fc1f0591e05e99484 = $(`<div id="html_897d72ed2f0e4f2fc1f0591e05e99484" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Whitefield Relief Camp</div>`)[0];
+                popup_85304a07e7ffddeb7373ec0ec435e972.setContent(html_897d72ed2f0e4f2fc1f0591e05e99484);
+            
+        
+
+        marker_895b665fca259e55bc097d2bbf2d8ab2.bindPopup(popup_85304a07e7ffddeb7373ec0ec435e972)
+        ;
+
+        
+    
+    
+                marker_895b665fca259e55bc097d2bbf2d8ab2.setIcon(icon_a690ac4787bd4a9f2ec5446f6e988fdc);
+            
+    
+            var marker_63cdf619320c6a76a5b131f5a89756a8 = L.marker(
+                [12.85010900900901, 77.67274010230464],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_b552999d9c143c720b3a6406d3af715f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_61fc8cc008cee666b9aeb9e01117148e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_691744727036463c15b0ea84fca19193 = $(`<div id="html_691744727036463c15b0ea84fca19193" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Electronic City Relief Camp</div>`)[0];
+                popup_61fc8cc008cee666b9aeb9e01117148e.setContent(html_691744727036463c15b0ea84fca19193);
+            
+        
+
+        marker_63cdf619320c6a76a5b131f5a89756a8.bindPopup(popup_61fc8cc008cee666b9aeb9e01117148e)
+        ;
+
+        
+    
+    
+                marker_63cdf619320c6a76a5b131f5a89756a8.setIcon(icon_b552999d9c143c720b3a6406d3af715f);
+            
+    
+            var marker_03b1d8a328e527da24d3fa602ae0510b = L.marker(
+                [12.94400900900901, 77.62924356790373],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_4899312458afabcc4da864f7d07c2f86 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3ba6b44a871b88e530a5dedf6a466b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bad3d9be738bbda47264bf3092111c3a = $(`<div id="html_bad3d9be738bbda47264bf3092111c3a" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Koramangala Relief Camp</div>`)[0];
+                popup_d3ba6b44a871b88e530a5dedf6a466b2.setContent(html_bad3d9be738bbda47264bf3092111c3a);
+            
+        
+
+        marker_03b1d8a328e527da24d3fa602ae0510b.bindPopup(popup_d3ba6b44a871b88e530a5dedf6a466b2)
+        ;
+
+        
+    
+    
+                marker_03b1d8a328e527da24d3fa602ae0510b.setIcon(icon_4899312458afabcc4da864f7d07c2f86);
+            
+    
+            var marker_cfd57ea19b016c0e7a154cd6f26c69ec = L.marker(
+                [12.98120900900901, 77.65324494844442],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_5c98beeafd869c84d207360addc67132 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae4061a08a655ef877de810a7ec61bf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7259fbceab8f4236ba58fbe4fd7f6d3a = $(`<div id="html_7259fbceab8f4236ba58fbe4fd7f6d3a" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Indiranagar Relief Camp</div>`)[0];
+                popup_ae4061a08a655ef877de810a7ec61bf2.setContent(html_7259fbceab8f4236ba58fbe4fd7f6d3a);
+            
+        
+
+        marker_cfd57ea19b016c0e7a154cd6f26c69ec.bindPopup(popup_ae4061a08a655ef877de810a7ec61bf2)
+        ;
+
+        
+    
+    
+                marker_cfd57ea19b016c0e7a154cd6f26c69ec.setIcon(icon_5c98beeafd869c84d207360addc67132);
+            
+    
+            var marker_d246506772f6ca7e629a8608e2e5c398 = L.marker(
+                [12.965809009009009, 77.70924437640755],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_3ab3d3a9472e807e423e036079776fbf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6cdef0b0cb01a61d9e8232e14d25190 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a7879510a495b2476a41945bab948ea = $(`<div id="html_5a7879510a495b2476a41945bab948ea" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Marathahalli Relief Camp</div>`)[0];
+                popup_e6cdef0b0cb01a61d9e8232e14d25190.setContent(html_5a7879510a495b2476a41945bab948ea);
+            
+        
+
+        marker_d246506772f6ca7e629a8608e2e5c398.bindPopup(popup_e6cdef0b0cb01a61d9e8232e14d25190)
+        ;
+
+        
+    
+    
+                marker_d246506772f6ca7e629a8608e2e5c398.setIcon(icon_3ab3d3a9472e807e423e036079776fbf);
+            
+    
+            var marker_885d4ff5e11ede6301c41601fe7b5ad7 = L.marker(
+                [12.93200900900901, 77.60444312348707],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_6c0f940958f24e94bca193411d47360e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3125038e74be85e19eefa513d21243e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c52e39bd20597b116b2103e698efdbc = $(`<div id="html_2c52e39bd20597b116b2103e698efdbc" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Jayanagar Relief Camp</div>`)[0];
+                popup_3125038e74be85e19eefa513d21243e8.setContent(html_2c52e39bd20597b116b2103e698efdbc);
+            
+        
+
+        marker_885d4ff5e11ede6301c41601fe7b5ad7.bindPopup(popup_3125038e74be85e19eefa513d21243e8)
+        ;
+
+        
+    
+    
+                marker_885d4ff5e11ede6301c41601fe7b5ad7.setIcon(icon_6c0f940958f24e94bca193411d47360e);
+            
+    
+            var marker_8ba6028b974040dbcc29de399b5db4bf = L.marker(
+                [13.04700900900901, 77.60424740092648],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_7ff1edc9069400545a66d7830005d599 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2f9a5a95b811fe3778ffd4474ab76e4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4d5bc5d47356fb2bfeb802fa46fc608 = $(`<div id="html_e4d5bc5d47356fb2bfeb802fa46fc608" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Hebbal Relief Camp</div>`)[0];
+                popup_2f9a5a95b811fe3778ffd4474ab76e4c.setContent(html_e4d5bc5d47356fb2bfeb802fa46fc608);
+            
+        
+
+        marker_8ba6028b974040dbcc29de399b5db4bf.bindPopup(popup_2f9a5a95b811fe3778ffd4474ab76e4c)
+        ;
+
+        
+    
+    
+                marker_8ba6028b974040dbcc29de399b5db4bf.setIcon(icon_7ff1edc9069400545a66d7830005d599);
+            
+    
+            var marker_0c3742a6bf23af935e7d8b000497c595 = L.marker(
+                [13.110509009009009, 77.60674978048775],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_fc2e5a8af19308ea3cccdd909a1ebf15 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c6d4c15a3c062b5ae18231489ccb5db2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41762bb5c7a74f5ecb200d0bec3df2f9 = $(`<div id="html_41762bb5c7a74f5ecb200d0bec3df2f9" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Yelahanka Relief Camp</div>`)[0];
+                popup_c6d4c15a3c062b5ae18231489ccb5db2.setContent(html_41762bb5c7a74f5ecb200d0bec3df2f9);
+            
+        
+
+        marker_0c3742a6bf23af935e7d8b000497c595.bindPopup(popup_c6d4c15a3c062b5ae18231489ccb5db2)
+        ;
+
+        
+    
+    
+                marker_0c3742a6bf23af935e7d8b000497c595.setIcon(icon_fc2e5a8af19308ea3cccdd909a1ebf15);
+            
+    
+            var marker_ee4451f0596666c57cbdaa3fb035f9e3 = L.marker(
+                [12.99900900900901, 77.56524561055035],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_be547f1164f85b057c76792f685e05c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd1594494763f6c4f215ed5e34f412ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cc3e6d2a37005b154465bb6f64934d0 = $(`<div id="html_6cc3e6d2a37005b154465bb6f64934d0" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Rajajinagar Relief Camp</div>`)[0];
+                popup_bd1594494763f6c4f215ed5e34f412ef.setContent(html_6cc3e6d2a37005b154465bb6f64934d0);
+            
+        
+
+        marker_ee4451f0596666c57cbdaa3fb035f9e3.bindPopup(popup_bd1594494763f6c4f215ed5e34f412ef)
+        ;
+
+        
+    
+    
+                marker_ee4451f0596666c57cbdaa3fb035f9e3.setIcon(icon_be547f1164f85b057c76792f685e05c2);
+            
+    
+            var marker_6ca6ed76dbb3a6e778afca7f1c9d2a6a = L.marker(
+                [12.95100900900901, 77.58374382735377],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_cfbf9689ad37c9ad7b4628df16bcc2b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f26ed0abb47addff04f8be94b485af0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc2b2597162c10f9f52f4a3b57494233 = $(`<div id="html_dc2b2597162c10f9f52f4a3b57494233" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Basavanagudi Relief Camp</div>`)[0];
+                popup_6f26ed0abb47addff04f8be94b485af0.setContent(html_dc2b2597162c10f9f52f4a3b57494233);
+            
+        
+
+        marker_6ca6ed76dbb3a6e778afca7f1c9d2a6a.bindPopup(popup_6f26ed0abb47addff04f8be94b485af0)
+        ;
+
+        
+    
+    
+                marker_6ca6ed76dbb3a6e778afca7f1c9d2a6a.setIcon(icon_cfbf9689ad37c9ad7b4628df16bcc2b8);
+            
+    
+            var marker_d245e75d2177f5b17a7f62cc1ebf2cbe = L.marker(
+                [13.01280900900901, 77.57924612454785],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_f70b349825d59bd42039506e1b34b986 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f75a993f9b3ff8a73ce89fe46baa7617 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4ea5817c88e1df27f20c734de16adc7 = $(`<div id="html_c4ea5817c88e1df27f20c734de16adc7" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Malleshwaram Relief Camp</div>`)[0];
+                popup_f75a993f9b3ff8a73ce89fe46baa7617.setContent(html_c4ea5817c88e1df27f20c734de16adc7);
+            
+        
+
+        marker_d245e75d2177f5b17a7f62cc1ebf2cbe.bindPopup(popup_f75a993f9b3ff8a73ce89fe46baa7617)
+        ;
+
+        
+    
+    
+                marker_d245e75d2177f5b17a7f62cc1ebf2cbe.setIcon(icon_f70b349825d59bd42039506e1b34b986);
+            
+    
+            var marker_9df0ed932778dfa294e8997d45aa6154 = L.marker(
+                [12.91960900900901, 77.6546426647273],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_fbdf2a2498a4b4cd7b3690e8e42639af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d474cb3ad4a9ac7f9d09de311e6b655e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_175e8b56b8e47baa415f4672dcc36857 = $(`<div id="html_175e8b56b8e47baa415f4672dcc36857" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: HSR Layout Relief Camp</div>`)[0];
+                popup_d474cb3ad4a9ac7f9d09de311e6b655e.setContent(html_175e8b56b8e47baa415f4672dcc36857);
+            
+        
+
+        marker_9df0ed932778dfa294e8997d45aa6154.bindPopup(popup_d474cb3ad4a9ac7f9d09de311e6b655e)
+        ;
+
+        
+    
+    
+                marker_9df0ed932778dfa294e8997d45aa6154.setIcon(icon_fbdf2a2498a4b4cd7b3690e8e42639af);
+            
+    
+            var marker_5a73a236aab07405cb5b866f36e22160 = L.marker(
+                [12.89820900900901, 77.59174187412196],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_32083fb734161c44e58d08ff9c0ed0b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_84892b13aca0d483c5958b12df1c5ada = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2ee9025c5c4957ff02a192c1f6d07a5 = $(`<div id="html_f2ee9025c5c4957ff02a192c1f6d07a5" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Bannerghatta Road Relief Camp</div>`)[0];
+                popup_84892b13aca0d483c5958b12df1c5ada.setContent(html_f2ee9025c5c4957ff02a192c1f6d07a5);
+            
+        
+
+        marker_5a73a236aab07405cb5b866f36e22160.bindPopup(popup_84892b13aca0d483c5958b12df1c5ada)
+        ;
+
+        
+    
+    
+                marker_5a73a236aab07405cb5b866f36e22160.setIcon(icon_32083fb734161c44e58d08ff9c0ed0b1);
+            
+    
+            var marker_d17d98d03fedc1cae7be16233f2e4d3e = L.marker(
+                [13.02260900900901, 77.530946489921],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_4c049cd2857fbf3e5a7cc26194be2225 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e75d7f735803f9db93f26386d9c6eded = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc1ed1aec0a26fdcd93952f0760d7712 = $(`<div id="html_cc1ed1aec0a26fdcd93952f0760d7712" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Peenya Relief Camp</div>`)[0];
+                popup_e75d7f735803f9db93f26386d9c6eded.setContent(html_cc1ed1aec0a26fdcd93952f0760d7712);
+            
+        
+
+        marker_d17d98d03fedc1cae7be16233f2e4d3e.bindPopup(popup_e75d7f735803f9db93f26386d9c6eded)
+        ;
+
+        
+    
+    
+                marker_d17d98d03fedc1cae7be16233f2e4d3e.setIcon(icon_4c049cd2857fbf3e5a7cc26194be2225);
+            
+    
+            var marker_6ad1eb5de054ac04badf4c901333558f = L.marker(
+                [13.00110900900901, 77.56024568872908],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_f81d5507c82445aee850032529e9ae89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_130962a92b0de99996bab1935527b5f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_745cc7522de0bb8bc39d24a38a8e3f78 = $(`<div id="html_745cc7522de0bb8bc39d24a38a8e3f78" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Rajajinagar West Relief Camp</div>`)[0];
+                popup_130962a92b0de99996bab1935527b5f7.setContent(html_745cc7522de0bb8bc39d24a38a8e3f78);
+            
+        
+
+        marker_6ad1eb5de054ac04badf4c901333558f.bindPopup(popup_130962a92b0de99996bab1935527b5f7)
+        ;
+
+        
+    
+    
+                marker_6ad1eb5de054ac04badf4c901333558f.setIcon(icon_f81d5507c82445aee850032529e9ae89);
+            
+    
+            var marker_eb375b0826e4495555610928330028a8 = L.marker(
+                [12.889609009009009, 77.4798415568033],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_624c85a183ddd9d8b00061e37471e036 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f90da94e676acce01370fc75238f14da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9838626cd24548b51d81cc3906d5fd5 = $(`<div id="html_c9838626cd24548b51d81cc3906d5fd5" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Kengeri Relief Camp</div>`)[0];
+                popup_f90da94e676acce01370fc75238f14da.setContent(html_c9838626cd24548b51d81cc3906d5fd5);
+            
+        
+
+        marker_eb375b0826e4495555610928330028a8.bindPopup(popup_f90da94e676acce01370fc75238f14da)
+        ;
+
+        
+    
+    
+                marker_eb375b0826e4495555610928330028a8.setIcon(icon_624c85a183ddd9d8b00061e37471e036);
+            
+    
+            var marker_e050cabd65da19f115bb2e1c8fcc2120 = L.marker(
+                [12.845509009009008, 77.56743993323524],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_ea1e75901f03b3ac169615dd0ecbe1ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c87bd65bd43d82dd5092dba1144d8c67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b108d48969db7f14944415f83192a2e = $(`<div id="html_6b108d48969db7f14944415f83192a2e" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Kanakapura Road Relief Camp</div>`)[0];
+                popup_c87bd65bd43d82dd5092dba1144d8c67.setContent(html_6b108d48969db7f14944415f83192a2e);
+            
+        
+
+        marker_e050cabd65da19f115bb2e1c8fcc2120.bindPopup(popup_c87bd65bd43d82dd5092dba1144d8c67)
+        ;
+
+        
+    
+    
+                marker_e050cabd65da19f115bb2e1c8fcc2120.setIcon(icon_ea1e75901f03b3ac169615dd0ecbe1ba);
+            
+    
+            var marker_8c5bd14bafcd2a4027234a661e30e8c5 = L.marker(
+                [12.98090900900901, 77.64824493729378],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_dcb4544e913e93cff5a7adbf6554968b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88824abd687408e1663e8de75c14d826 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4f9c3f21d9e84df9171b72b95b8e345 = $(`<div id="html_c4f9c3f21d9e84df9171b72b95b8e345" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Domlur Relief Camp</div>`)[0];
+                popup_88824abd687408e1663e8de75c14d826.setContent(html_c4f9c3f21d9e84df9171b72b95b8e345);
+            
+        
+
+        marker_8c5bd14bafcd2a4027234a661e30e8c5.bindPopup(popup_88824abd687408e1663e8de75c14d826)
+        ;
+
+        
+    
+    
+                marker_8c5bd14bafcd2a4027234a661e30e8c5.setIcon(icon_dcb4544e913e93cff5a7adbf6554968b);
+            
+    
+            var marker_45fde48a1901fdbcaf3391732a4d8e5a = L.marker(
+                [13.035809009009009, 77.65094698252953],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_4c8a0bd627159744b93ef206960443a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae425a1afea4ab4ea798fa8ca7258378 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff414949956fc9a5d7fa05b8a02a9928 = $(`<div id="html_ff414949956fc9a5d7fa05b8a02a9928" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Kalyan Nagar Relief Camp</div>`)[0];
+                popup_ae425a1afea4ab4ea798fa8ca7258378.setContent(html_ff414949956fc9a5d7fa05b8a02a9928);
+            
+        
+
+        marker_45fde48a1901fdbcaf3391732a4d8e5a.bindPopup(popup_ae425a1afea4ab4ea798fa8ca7258378)
+        ;
+
+        
+    
+    
+                marker_45fde48a1901fdbcaf3391732a4d8e5a.setIcon(icon_4c8a0bd627159744b93ef206960443a4);
+            
+    
+            var marker_40121730094c3363325b08d38fe120be = L.marker(
+                [13.03150900900901, 77.60394682199892],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_d516e93e3948d82881c5f774132decfb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92a0e87bd32daa7e7b1bc92483b94685 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac7f9fb6c4f028c5a1c7220333cf498b = $(`<div id="html_ac7f9fb6c4f028c5a1c7220333cf498b" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Sanjay Nagar Relief Camp</div>`)[0];
+                popup_92a0e87bd32daa7e7b1bc92483b94685.setContent(html_ac7f9fb6c4f028c5a1c7220333cf498b);
+            
+        
+
+        marker_40121730094c3363325b08d38fe120be.bindPopup(popup_92a0e87bd32daa7e7b1bc92483b94685)
+        ;
+
+        
+    
+    
+                marker_40121730094c3363325b08d38fe120be.setIcon(icon_d516e93e3948d82881c5f774132decfb);
+            
+    
+            var marker_9cb4caf5243a77149d80bcb25b9ad3d8 = L.marker(
+                [12.994009009009009, 77.56824542446584],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_dc86cb07363b0919fd632d5617685e7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f206e420754832f811d3df59d65ee416 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a064c21cec8c0a9ee4730e3df40b5a64 = $(`<div id="html_a064c21cec8c0a9ee4730e3df40b5a64" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Rajajinagar East Relief Camp</div>`)[0];
+                popup_f206e420754832f811d3df59d65ee416.setContent(html_a064c21cec8c0a9ee4730e3df40b5a64);
+            
+        
+
+        marker_9cb4caf5243a77149d80bcb25b9ad3d8.bindPopup(popup_f206e420754832f811d3df59d65ee416)
+        ;
+
+        
+    
+    
+                marker_9cb4caf5243a77149d80bcb25b9ad3d8.setIcon(icon_dc86cb07363b0919fd632d5617685e7f);
+            
+    
+            var marker_49d41805e9bf789171eaeb345caf50e0 = L.marker(
+                [12.98700900900901, 77.76044516407838],
+                {
+}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+            var icon_4b290e2fcb96774fc734ae3bcf0d2cdd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7cbd9c2ef7aed5cfa82f4e4d5144fa4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a92b59f11a0c67d63d571bd36389d522 = $(`<div id="html_a92b59f11a0c67d63d571bd36389d522" style="width: 100.0%; height: 100.0%;">🏫 Relief Camp: Whitefield Industrial Area Relief Camp</div>`)[0];
+                popup_7cbd9c2ef7aed5cfa82f4e4d5144fa4a.setContent(html_a92b59f11a0c67d63d571bd36389d522);
+            
+        
+
+        marker_49d41805e9bf789171eaeb345caf50e0.bindPopup(popup_7cbd9c2ef7aed5cfa82f4e4d5144fa4a)
+        ;
+
+        
+    
+    
+                marker_49d41805e9bf789171eaeb345caf50e0.setIcon(icon_4b290e2fcb96774fc734ae3bcf0d2cdd);
+            
+    
+            var circle_marker_7b9c521797a8ee857cc2c9f4b8909497 = L.circleMarker(
+                [12.8411, 77.6635],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_80baf20bfe53b22039463e7ec02ce3a0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_64fb500ff6c42f618d6f516c482e6c86 = $(`<div id="html_64fb500ff6c42f618d6f516c482e6c86" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Electronic City<br>Severity: Low</div>`)[0];
+                popup_80baf20bfe53b22039463e7ec02ce3a0.setContent(html_64fb500ff6c42f618d6f516c482e6c86);
+            
+        
+
+        circle_marker_7b9c521797a8ee857cc2c9f4b8909497.bindPopup(popup_80baf20bfe53b22039463e7ec02ce3a0)
+        ;
+
+        
+    
+    
+            var circle_marker_09ed6c74730981b6aa03c018a94788c8 = L.circleMarker(
+                [12.935, 77.62],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_57b6b95de2af7bbebdfaaaf5eaae1c3f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fe94300190213dfbefceb49ca5b934f6 = $(`<div id="html_fe94300190213dfbefceb49ca5b934f6" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Koramangala<br>Severity: Low</div>`)[0];
+                popup_57b6b95de2af7bbebdfaaaf5eaae1c3f.setContent(html_fe94300190213dfbefceb49ca5b934f6);
+            
+        
+
+        circle_marker_09ed6c74730981b6aa03c018a94788c8.bindPopup(popup_57b6b95de2af7bbebdfaaaf5eaae1c3f)
+        ;
+
+        
+    
+    
+            var circle_marker_469a640ddd26117041b88fa61b090cf1 = L.circleMarker(
+                [12.9722, 77.644],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_a2e8de1949d44b3ad45a3f53ddd52af1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6dbc5c250e99c9662d76271205d19b28 = $(`<div id="html_6dbc5c250e99c9662d76271205d19b28" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Indiranagar<br>Severity: Low</div>`)[0];
+                popup_a2e8de1949d44b3ad45a3f53ddd52af1.setContent(html_6dbc5c250e99c9662d76271205d19b28);
+            
+        
+
+        circle_marker_469a640ddd26117041b88fa61b090cf1.bindPopup(popup_a2e8de1949d44b3ad45a3f53ddd52af1)
+        ;
+
+        
+    
+    
+            var circle_marker_e0bd105c03832b1842a7c7c593200f93 = L.circleMarker(
+                [12.923, 77.5952],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_f1e34b8c13156c9ce157a1cced3645d6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e73c9097db199dac80bfea989ab6d56e = $(`<div id="html_e73c9097db199dac80bfea989ab6d56e" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Jayanagar<br>Severity: Low</div>`)[0];
+                popup_f1e34b8c13156c9ce157a1cced3645d6.setContent(html_e73c9097db199dac80bfea989ab6d56e);
+            
+        
+
+        circle_marker_e0bd105c03832b1842a7c7c593200f93.bindPopup(popup_f1e34b8c13156c9ce157a1cced3645d6)
+        ;
+
+        
+    
+    
+            var circle_marker_044049ca1f818a403414bdbdb77e4d02 = L.circleMarker(
+                [13.038, 77.595],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_34f94f5c3e8356d2960020be7050fc0c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1963211446c0f3fbe53ee4d38d0de539 = $(`<div id="html_1963211446c0f3fbe53ee4d38d0de539" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Hebbal<br>Severity: Low</div>`)[0];
+                popup_34f94f5c3e8356d2960020be7050fc0c.setContent(html_1963211446c0f3fbe53ee4d38d0de539);
+            
+        
+
+        circle_marker_044049ca1f818a403414bdbdb77e4d02.bindPopup(popup_34f94f5c3e8356d2960020be7050fc0c)
+        ;
+
+        
+    
+    
+            var circle_marker_ab66cbc1ffefe65c70477a4af29f3218 = L.circleMarker(
+                [13.1015, 77.5975],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_5f94b5ffa38020090966e22814e58cf7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_30eb8e6e74bf9eb816d2a233bf260576 = $(`<div id="html_30eb8e6e74bf9eb816d2a233bf260576" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Yelahanka<br>Severity: Low</div>`)[0];
+                popup_5f94b5ffa38020090966e22814e58cf7.setContent(html_30eb8e6e74bf9eb816d2a233bf260576);
+            
+        
+
+        circle_marker_ab66cbc1ffefe65c70477a4af29f3218.bindPopup(popup_5f94b5ffa38020090966e22814e58cf7)
+        ;
+
+        
+    
+    
+            var circle_marker_6617e211bf8696df40154caaf3bac9dd = L.circleMarker(
+                [12.99, 77.556],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_fda2299eea6ee145960223acc2bbe573 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c14fcb8f1c64243441c759f3383573b7 = $(`<div id="html_c14fcb8f1c64243441c759f3383573b7" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Rajajinagar<br>Severity: Low</div>`)[0];
+                popup_fda2299eea6ee145960223acc2bbe573.setContent(html_c14fcb8f1c64243441c759f3383573b7);
+            
+        
+
+        circle_marker_6617e211bf8696df40154caaf3bac9dd.bindPopup(popup_fda2299eea6ee145960223acc2bbe573)
+        ;
+
+        
+    
+    
+            var circle_marker_86f7a28eb04bc537e00b4227d8331cef = L.circleMarker(
+                [12.942, 77.5745],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_ef1c0bad9a69c553e58719ad92c32d1b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a4790b94752f8a0baf7e6730cc21f9ef = $(`<div id="html_a4790b94752f8a0baf7e6730cc21f9ef" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Basavanagudi<br>Severity: Low</div>`)[0];
+                popup_ef1c0bad9a69c553e58719ad92c32d1b.setContent(html_a4790b94752f8a0baf7e6730cc21f9ef);
+            
+        
+
+        circle_marker_86f7a28eb04bc537e00b4227d8331cef.bindPopup(popup_ef1c0bad9a69c553e58719ad92c32d1b)
+        ;
+
+        
+    
+    
+            var circle_marker_4d75201c9516ca7971d369ecf445f325 = L.circleMarker(
+                [13.0038, 77.57],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_c7c225b14d38477cc4173103575a871c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fcb7dc0ddcbdc3844111beb3ec1bcfeb = $(`<div id="html_fcb7dc0ddcbdc3844111beb3ec1bcfeb" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Malleshwaram<br>Severity: Low</div>`)[0];
+                popup_c7c225b14d38477cc4173103575a871c.setContent(html_fcb7dc0ddcbdc3844111beb3ec1bcfeb);
+            
+        
+
+        circle_marker_4d75201c9516ca7971d369ecf445f325.bindPopup(popup_c7c225b14d38477cc4173103575a871c)
+        ;
+
+        
+    
+    
+            var circle_marker_e7435bc510f538983fc16548f7d64dd9 = L.circleMarker(
+                [12.9106, 77.6454],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_407a09621c9496852566d9f62dd92727 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_432c2b5a8b1e6f15d5122922e256b8dd = $(`<div id="html_432c2b5a8b1e6f15d5122922e256b8dd" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: HSR Layout<br>Severity: Low</div>`)[0];
+                popup_407a09621c9496852566d9f62dd92727.setContent(html_432c2b5a8b1e6f15d5122922e256b8dd);
+            
+        
+
+        circle_marker_e7435bc510f538983fc16548f7d64dd9.bindPopup(popup_407a09621c9496852566d9f62dd92727)
+        ;
+
+        
+    
+    
+            var circle_marker_c8518136054ccbf9efed9221ef2fa805 = L.circleMarker(
+                [12.8892, 77.5825],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_9e82996776259b451ad4665489e13ab4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_20bc6245cb6d12ef5ba14420055e70d7 = $(`<div id="html_20bc6245cb6d12ef5ba14420055e70d7" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Bannerghatta Road<br>Severity: Low</div>`)[0];
+                popup_9e82996776259b451ad4665489e13ab4.setContent(html_20bc6245cb6d12ef5ba14420055e70d7);
+            
+        
+
+        circle_marker_c8518136054ccbf9efed9221ef2fa805.bindPopup(popup_9e82996776259b451ad4665489e13ab4)
+        ;
+
+        
+    
+    
+            var circle_marker_7945350ee3cc28ef89a8de5161f32644 = L.circleMarker(
+                [13.0136, 77.5217],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_53227ef9dae38218c347056fb18b78a4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_29d2a6a09f4c89fa9352c8c6bed75eba = $(`<div id="html_29d2a6a09f4c89fa9352c8c6bed75eba" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Peenya<br>Severity: Low</div>`)[0];
+                popup_53227ef9dae38218c347056fb18b78a4.setContent(html_29d2a6a09f4c89fa9352c8c6bed75eba);
+            
+        
+
+        circle_marker_7945350ee3cc28ef89a8de5161f32644.bindPopup(popup_53227ef9dae38218c347056fb18b78a4)
+        ;
+
+        
+    
+    
+            var circle_marker_bb54252dd8eaf03816f686fd7b80ce0a = L.circleMarker(
+                [12.9921, 77.551],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_2b437146f6935ea06e3cab21157a6adb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_881a90f45c318df2ec0532e6a59db4f3 = $(`<div id="html_881a90f45c318df2ec0532e6a59db4f3" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Rajajinagar West<br>Severity: Low</div>`)[0];
+                popup_2b437146f6935ea06e3cab21157a6adb.setContent(html_881a90f45c318df2ec0532e6a59db4f3);
+            
+        
+
+        circle_marker_bb54252dd8eaf03816f686fd7b80ce0a.bindPopup(popup_2b437146f6935ea06e3cab21157a6adb)
+        ;
+
+        
+    
+    
+            var circle_marker_27c72c44f9fe9e311d8fa216380c6f11 = L.circleMarker(
+                [12.8806, 77.4706],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_eba2393a4d00e27770b655e28b6d690d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_735c59fa5dc2ca5666b2b2b4889674eb = $(`<div id="html_735c59fa5dc2ca5666b2b2b4889674eb" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Kengeri<br>Severity: Low</div>`)[0];
+                popup_eba2393a4d00e27770b655e28b6d690d.setContent(html_735c59fa5dc2ca5666b2b2b4889674eb);
+            
+        
+
+        circle_marker_27c72c44f9fe9e311d8fa216380c6f11.bindPopup(popup_eba2393a4d00e27770b655e28b6d690d)
+        ;
+
+        
+    
+    
+            var circle_marker_564e564a36318e892210ef5b3dc59c52 = L.circleMarker(
+                [12.8365, 77.5582],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_d83f01f07c90ca3c5804bdc7398e3671 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_92c84e4b748acbaa65a1e4bb76a68589 = $(`<div id="html_92c84e4b748acbaa65a1e4bb76a68589" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Kanakapura Road<br>Severity: Low</div>`)[0];
+                popup_d83f01f07c90ca3c5804bdc7398e3671.setContent(html_92c84e4b748acbaa65a1e4bb76a68589);
+            
+        
+
+        circle_marker_564e564a36318e892210ef5b3dc59c52.bindPopup(popup_d83f01f07c90ca3c5804bdc7398e3671)
+        ;
+
+        
+    
+    
+            var circle_marker_c4de495bff5a2dad3bc01a71f1e79c04 = L.circleMarker(
+                [12.9719, 77.639],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_0ffdc210f15fd961ee11d0d7bbcff7eb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_309bfba7ce817d366464a5095c2e6ecb = $(`<div id="html_309bfba7ce817d366464a5095c2e6ecb" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Domlur<br>Severity: Low</div>`)[0];
+                popup_0ffdc210f15fd961ee11d0d7bbcff7eb.setContent(html_309bfba7ce817d366464a5095c2e6ecb);
+            
+        
+
+        circle_marker_c4de495bff5a2dad3bc01a71f1e79c04.bindPopup(popup_0ffdc210f15fd961ee11d0d7bbcff7eb)
+        ;
+
+        
+    
+    
+            var circle_marker_71eccc90b942112b977453d56640db8d = L.circleMarker(
+                [13.0268, 77.6417],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_4e67e9e68a87942b84ec808c19923a3e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_14ca79cc097bf5f4395aa318de4b1840 = $(`<div id="html_14ca79cc097bf5f4395aa318de4b1840" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Kalyan Nagar<br>Severity: Low</div>`)[0];
+                popup_4e67e9e68a87942b84ec808c19923a3e.setContent(html_14ca79cc097bf5f4395aa318de4b1840);
+            
+        
+
+        circle_marker_71eccc90b942112b977453d56640db8d.bindPopup(popup_4e67e9e68a87942b84ec808c19923a3e)
+        ;
+
+        
+    
+    
+            var circle_marker_5544f46153c8c29f641731a8a045f935 = L.circleMarker(
+                [13.0225, 77.5947],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_8874db531653b73a3158430c780b0572 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4483bb824846b28b5f39ca98b5103ba5 = $(`<div id="html_4483bb824846b28b5f39ca98b5103ba5" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Sanjay Nagar<br>Severity: Low</div>`)[0];
+                popup_8874db531653b73a3158430c780b0572.setContent(html_4483bb824846b28b5f39ca98b5103ba5);
+            
+        
+
+        circle_marker_5544f46153c8c29f641731a8a045f935.bindPopup(popup_8874db531653b73a3158430c780b0572)
+        ;
+
+        
+    
+    
+            var circle_marker_78643842e37600833323ce70ecde5524 = L.circleMarker(
+                [12.985, 77.559],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_8d7effc985eeaf118c404ccc1b150af9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e71fe7762538ddf659d4c0b46d181ed8 = $(`<div id="html_e71fe7762538ddf659d4c0b46d181ed8" style="width: 100.0%; height: 100.0%;">🚨 Danger Zone: Rajajinagar East<br>Severity: Low</div>`)[0];
+                popup_8d7effc985eeaf118c404ccc1b150af9.setContent(html_e71fe7762538ddf659d4c0b46d181ed8);
+            
+        
+
+        circle_marker_78643842e37600833323ce70ecde5524.bindPopup(popup_8d7effc985eeaf118c404ccc1b150af9)
+        ;
+
+        
+    
+    
+            var poly_line_70f439d964a116933ad16d1746c1d1ae = L.polyline(
+                [[12.84092, 77.66306], [12.84041, 77.66329], [12.84055, 77.66356], [12.84073, 77.66383], [12.84092, 77.66408], [12.84118, 77.66436], [12.84187, 77.66482], [12.84186, 77.66514], [12.84188, 77.66679], [12.84195, 77.66729], [12.84203, 77.66782], [12.84212, 77.66821], [12.84237, 77.66894], [12.84261, 77.66945], [12.84291, 77.66987], [12.84331, 77.6704], [12.84369, 77.6709], [12.84456, 77.67208], [12.84468, 77.67225], [12.84474, 77.67234], [12.84439, 77.67265], [12.84388, 77.67304], [12.84315, 77.67362], [12.84337, 77.674], [12.84342, 77.67408], [12.84512, 77.67273], [12.84526, 77.6726], [12.84546, 77.67228], [12.84535, 77.67225], [12.84532, 77.67224], [12.84522, 77.67228], [12.84495, 77.67243], [12.8441, 77.67302], [12.84395, 77.67315], [12.84387, 77.67326], [12.84384, 77.67335], [12.84382, 77.67356], [12.84386, 77.67376], [12.84396, 77.67394], [12.8441, 77.67406], [12.84428, 77.67413], [12.84447, 77.67415], [12.84465, 77.6741], [12.84479, 77.67402], [12.84485, 77.67396], [12.8449, 77.67388], [12.84501, 77.67365], [12.8451, 77.67348], [12.84522, 77.67333], [12.84538, 77.67317], [12.84557, 77.67302], [12.84597, 77.67272], [12.84608, 77.67267], [12.84619, 77.67264], [12.84633, 77.67264], [12.84646, 77.67267], [12.84664, 77.67277], [12.84683, 77.673], [12.84726, 77.67393], [12.84735, 77.67415], [12.84749, 77.67462], [12.84753, 77.67474], [12.849, 77.67411], [12.84906, 77.67394], [12.8492, 77.67362], [12.84934, 77.67331], [12.84957, 77.67344], [12.84959, 77.67343], [12.84992, 77.67266]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_53ec0954e556caf2faff11c7ba24448f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_86d8b22fb68c88570e5fb37572d1e3cd = $(`<div id="html_86d8b22fb68c88570e5fb37572d1e3cd" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Electronic City<br>         To: Electronic City Relief Camp<br>         Distance: 3.09 km<br>         Duration: 6.0 min         </div>`)[0];
+                popup_53ec0954e556caf2faff11c7ba24448f.setContent(html_86d8b22fb68c88570e5fb37572d1e3cd);
+            
+        
+
+        poly_line_70f439d964a116933ad16d1746c1d1ae.bindPopup(popup_53ec0954e556caf2faff11c7ba24448f)
+        ;
+
+        
+    
+    
+            var poly_line_42beb8936821716e258c6c9c76df351b = L.polyline(
+                [[12.93506, 77.61989], [12.93524, 77.61999], [12.93505, 77.62029], [12.93535, 77.62045], [12.93634, 77.62098], [12.93607, 77.62141], [12.93574, 77.62195], [12.93488, 77.62331], [12.93459, 77.6238], [12.93497, 77.62407], [12.93524, 77.62437], [12.93611, 77.62541], [12.93724, 77.62683], [12.93728, 77.62687], [12.93733, 77.62694], [12.93758, 77.62723], [12.93783, 77.62762], [12.93827, 77.62851], [12.93835, 77.6287], [12.93849, 77.62917], [12.93854, 77.62938], [12.93855, 77.62968], [12.93853, 77.63057], [12.93856, 77.63082], [12.93857, 77.63112], [12.93857, 77.63134], [12.93858, 77.63147], [12.93858, 77.63156], [12.93858, 77.63181], [12.93944, 77.63181], [12.93971, 77.6318], [12.93973, 77.63206], [12.94024, 77.63184], [12.94038, 77.63178], [12.94086, 77.63156], [12.94112, 77.63145], [12.94144, 77.63132], [12.94197, 77.63111], [12.94247, 77.63088], [12.94311, 77.63059], [12.94331, 77.6305], [12.94352, 77.6304], [12.94392, 77.63022], [12.94458, 77.62992], [12.94462, 77.62889], [12.94441, 77.62889], [12.94434, 77.6289], [12.94432, 77.62903], [12.94431, 77.62932], [12.94401, 77.62931]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_11c047351370af9ddd9352f1f918a566 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fb318c08ab085ed721b526984cfaccfe = $(`<div id="html_fb318c08ab085ed721b526984cfaccfe" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Koramangala<br>         To: Koramangala Relief Camp<br>         Distance: 2.57 km<br>         Duration: 5.2 min         </div>`)[0];
+                popup_11c047351370af9ddd9352f1f918a566.setContent(html_fb318c08ab085ed721b526984cfaccfe);
+            
+        
+
+        poly_line_42beb8936821716e258c6c9c76df351b.bindPopup(popup_11c047351370af9ddd9352f1f918a566)
+        ;
+
+        
+    
+    
+            var poly_line_3c9ec7b874d3f11cf04b467d066001c3 = L.polyline(
+                [[12.97262, 77.64398], [12.97264, 77.64444], [12.97265, 77.64488], [12.97345, 77.64484], [12.97398, 77.64482], [12.97398, 77.64528], [12.97399, 77.64582], [12.97402, 77.64596], [12.97406, 77.6467], [12.97404, 77.64675], [12.97404, 77.64685], [12.97458, 77.64682], [12.97583, 77.64674], [12.97734, 77.64665], [12.97787, 77.64663], [12.97854, 77.64659], [12.97862, 77.64659], [12.97926, 77.64644], [12.98019, 77.64624], [12.98079, 77.64611], [12.98097, 77.64607], [12.98124, 77.64601], [12.98212, 77.64582], [12.98241, 77.64576], [12.98272, 77.64569], [12.98347, 77.64554], [12.98526, 77.64516], [12.98556, 77.64509], [12.9857, 77.64503], [12.98579, 77.64499], [12.98582, 77.64508], [12.9862, 77.64608], [12.9867, 77.64734], [12.98703, 77.64802], [12.98704, 77.64807], [12.98693, 77.64805], [12.98625, 77.64808], [12.98588, 77.64815], [12.98536, 77.64836], [12.98364, 77.64935], [12.98346, 77.64945], [12.98189, 77.65042], [12.98186, 77.65036], [12.98147, 77.64914], [12.98137, 77.64886], [12.98126, 77.64855], [12.98114, 77.6482], [12.98113, 77.64816]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_2a628c081031b4e4ab0709f7c9d04f33 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_25cd75728af425647b85d4d5794ea8b3 = $(`<div id="html_25cd75728af425647b85d4d5794ea8b3" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Indiranagar<br>         To: Domlur Relief Camp<br>         Distance: 3.05 km<br>         Duration: 5.3 min         </div>`)[0];
+                popup_2a628c081031b4e4ab0709f7c9d04f33.setContent(html_25cd75728af425647b85d4d5794ea8b3);
+            
+        
+
+        poly_line_3c9ec7b874d3f11cf04b467d066001c3.bindPopup(popup_2a628c081031b4e4ab0709f7c9d04f33)
+        ;
+
+        
+    
+    
+            var poly_line_4295f8aab4d3fe55c7046a5c03f64a42 = L.polyline(
+                [[12.923, 77.59523], [12.9232, 77.59523], [12.92316, 77.59699], [12.92316, 77.59706], [12.92315, 77.59746], [12.92315, 77.59781], [12.92311, 77.59941], [12.9231, 77.59977], [12.92309, 77.60022], [12.92417, 77.60031], [12.92543, 77.60037], [12.92553, 77.60038], [12.92578, 77.60039], [12.92666, 77.60045], [12.92665, 77.60052], [12.92669, 77.60109], [12.92675, 77.60115], [12.92686, 77.60121], [12.9269, 77.60125], [12.9271, 77.60159], [12.92774, 77.60287], [12.92785, 77.6031], [12.92797, 77.6033], [12.928, 77.60337], [12.92801, 77.60352], [12.92804, 77.60382], [12.92807, 77.60413], [12.92808, 77.6046], [12.92808, 77.6047], [12.92804, 77.60493], [12.92788, 77.60627], [12.92798, 77.60629], [12.92824, 77.60633], [12.9285, 77.60637], [12.92881, 77.60644], [12.92909, 77.6065], [12.92934, 77.60658], [12.92961, 77.60667], [12.92982, 77.60676], [12.93009, 77.60679], [12.93011, 77.6068], [12.93037, 77.60679], [12.93057, 77.60678], [12.93063, 77.60677], [12.93093, 77.60674], [12.93081, 77.60531], [12.93077, 77.60455], [12.93077, 77.60444]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_0967f92b4cd8e11b7c1bee97f9d74d92 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_09336eeec28d7a7f0f1076bc4490d1de = $(`<div id="html_09336eeec28d7a7f0f1076bc4490d1de" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Jayanagar<br>         To: Jayanagar Relief Camp<br>         Distance: 2.23 km<br>         Duration: 2.9 min         </div>`)[0];
+                popup_0967f92b4cd8e11b7c1bee97f9d74d92.setContent(html_09336eeec28d7a7f0f1076bc4490d1de);
+            
+        
+
+        poly_line_4295f8aab4d3fe55c7046a5c03f64a42.bindPopup(popup_0967f92b4cd8e11b7c1bee97f9d74d92)
+        ;
+
+        
+    
+    
+            var poly_line_0d9608bab63251c0d4607a19388f8a58 = L.polyline(
+                [[13.03777, 77.59536], [13.03772, 77.59558], [13.03764, 77.59621], [13.0376, 77.59672], [13.03769, 77.59674], [13.03757, 77.59678], [13.03721, 77.59692], [13.03711, 77.59718], [13.03706, 77.59731], [13.03699, 77.59741], [13.03672, 77.59747], [13.03644, 77.59808], [13.03639, 77.59811], [13.0362, 77.59816], [13.03601, 77.59848], [13.03586, 77.5989], [13.03538, 77.59882], [13.03537, 77.59886], [13.03533, 77.59904], [13.03523, 77.59949], [13.03522, 77.59959], [13.03517, 77.59988], [13.03517, 77.59991], [13.03514, 77.60016], [13.03512, 77.60024], [13.03509, 77.60045], [13.03503, 77.60088], [13.03505, 77.6011], [13.03507, 77.60137], [13.0351, 77.60167], [13.03514, 77.60203], [13.0351, 77.60227], [13.03509, 77.60238], [13.03506, 77.60253], [13.03501, 77.60289], [13.03496, 77.60319], [13.03495, 77.60324], [13.03494, 77.60342], [13.03494, 77.60349], [13.03493, 77.60367], [13.03492, 77.60374], [13.03491, 77.60387], [13.0349, 77.60406], [13.0349, 77.6041], [13.03488, 77.60433], [13.03486, 77.60465], [13.03418, 77.60465], [13.03396, 77.60467], [13.03381, 77.60468], [13.0336, 77.6047], [13.03355, 77.6047], [13.03328, 77.60473], [13.03324, 77.60473], [13.03302, 77.60475], [13.03278, 77.60477], [13.03249, 77.60479], [13.03219, 77.60482], [13.03191, 77.60481], [13.03176, 77.60481], [13.03133, 77.6048], [13.03133, 77.60412], [13.03132, 77.60396]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_402360266cacbaa6ad86a1b59f6c46a0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_54fbeca60aa3cca9131e6508c5c37c5c = $(`<div id="html_54fbeca60aa3cca9131e6508c5c37c5c" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Hebbal<br>         To: Sanjay Nagar Relief Camp<br>         Distance: 1.67 km<br>         Duration: 3.0 min         </div>`)[0];
+                popup_402360266cacbaa6ad86a1b59f6c46a0.setContent(html_54fbeca60aa3cca9131e6508c5c37c5c);
+            
+        
+
+        poly_line_0d9608bab63251c0d4607a19388f8a58.bindPopup(popup_402360266cacbaa6ad86a1b59f6c46a0)
+        ;
+
+        
+    
+    
+            var poly_line_5cabc6bf56386111ea586e4bb3d0f3f0 = L.polyline(
+                [[13.10151, 77.5976], [13.1012, 77.59762], [13.10128, 77.59825], [13.10128, 77.59861], [13.1018, 77.59893], [13.10203, 77.59907], [13.10241, 77.5993], [13.10359, 77.60003], [13.1037, 77.60012], [13.10377, 77.60015], [13.10376, 77.60022], [13.10376, 77.60029], [13.10397, 77.60036], [13.10405, 77.60039], [13.10493, 77.60077], [13.1058, 77.60123], [13.10684, 77.60184], [13.10712, 77.602], [13.10779, 77.60238], [13.10853, 77.6028], [13.10936, 77.60331], [13.10966, 77.6035], [13.11077, 77.60417], [13.1114, 77.60457], [13.11119, 77.60501], [13.11115, 77.6052], [13.11104, 77.6062], [13.11097, 77.6068]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_7dd84babe55027677099155fdf538ef1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_74b6f693be4f16c5b856eff64b947b9d = $(`<div id="html_74b6f693be4f16c5b856eff64b947b9d" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Yelahanka<br>         To: Yelahanka Relief Camp<br>         Distance: 1.7 km<br>         Duration: 3.3 min         </div>`)[0];
+                popup_7dd84babe55027677099155fdf538ef1.setContent(html_74b6f693be4f16c5b856eff64b947b9d);
+            
+        
+
+        poly_line_5cabc6bf56386111ea586e4bb3d0f3f0.bindPopup(popup_7dd84babe55027677099155fdf538ef1)
+        ;
+
+        
+    
+    
+            var poly_line_48cd02994b0c480a13ea365a2d64fc5e = L.polyline(
+                [[12.99, 77.55605], [12.99026, 77.55606], [12.99058, 77.55606], [12.99086, 77.55607], [12.99117, 77.55609], [12.99152, 77.55609], [12.99157, 77.55618], [12.99178, 77.55651], [12.99191, 77.55666], [12.99217, 77.55701], [12.99239, 77.55684], [12.99322, 77.5562], [12.99345, 77.55608], [12.99368, 77.55592], [12.99393, 77.55573], [12.99423, 77.55551], [12.99431, 77.55545], [12.99489, 77.55509], [12.9962, 77.5544], [12.99638, 77.55425], [12.99689, 77.55381], [12.99728, 77.55351], [12.99816, 77.55299], [12.99826, 77.55296], [12.99829, 77.55306], [12.99873, 77.55542], [12.99872, 77.5559], [12.99869, 77.55629], [12.99847, 77.55741], [12.99841, 77.5576], [12.99834, 77.55779], [12.99825, 77.55804], [12.99815, 77.55831], [12.99797, 77.55885], [12.99762, 77.5598], [12.9979, 77.55985], [12.99828, 77.55993], [12.99863, 77.56001], [12.99886, 77.56007], [12.99899, 77.56009], [12.99918, 77.56014], [12.99953, 77.56024], [13.00001, 77.5604], [13.00056, 77.56054], [13.0006, 77.56029], [13.0011, 77.56035]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_4032b04240b0c1769972ef86345589de = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2018f6f237b087d0aada0708f7567aa4 = $(`<div id="html_2018f6f237b087d0aada0708f7567aa4" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Rajajinagar<br>         To: Rajajinagar West Relief Camp<br>         Distance: 2.29 km<br>         Duration: 3.5 min         </div>`)[0];
+                popup_4032b04240b0c1769972ef86345589de.setContent(html_2018f6f237b087d0aada0708f7567aa4);
+            
+        
+
+        poly_line_48cd02994b0c480a13ea365a2d64fc5e.bindPopup(popup_4032b04240b0c1769972ef86345589de)
+        ;
+
+        
+    
+    
+            var poly_line_4f0a54638edc2eb5efa82168f33d1cf0 = L.polyline(
+                [[12.94203, 77.57424], [12.94199, 77.57392], [12.94175, 77.57384], [12.94063, 77.5738], [12.94064, 77.57369], [12.94176, 77.57376], [12.94356, 77.57375], [12.94428, 77.57375], [12.94565, 77.5737], [12.94588, 77.5737], [12.9466, 77.57368], [12.94738, 77.57368], [12.94778, 77.57367], [12.94817, 77.57367], [12.94837, 77.57368], [12.94837, 77.57378], [12.94837, 77.57524], [12.94836, 77.57545], [12.94832, 77.57558], [12.94832, 77.57678], [12.94832, 77.57689], [12.94832, 77.57709], [12.94837, 77.57879], [12.94839, 77.57968], [12.94847, 77.57982], [12.94861, 77.57995], [12.94905, 77.57995], [12.9492, 77.57995], [12.95051, 77.57994], [12.95054, 77.57994], [12.95056, 77.57994], [12.95056, 77.58006], [12.95056, 77.58033], [12.95088, 77.58034], [12.95094, 77.58034], [12.95103, 77.58035], [12.95122, 77.58039], [12.95127, 77.58146], [12.95157, 77.58146], [12.95148, 77.58283], [12.95142, 77.5828]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_e5b2aac0f75a06f0fa075e65e9e9fb0a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_73b65d3bc28469b486b200b2b3175ff9 = $(`<div id="html_73b65d3bc28469b486b200b2b3175ff9" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Basavanagudi<br>         To: Basavanagudi Relief Camp<br>         Distance: 2.39 km<br>         Duration: 4.5 min         </div>`)[0];
+                popup_e5b2aac0f75a06f0fa075e65e9e9fb0a.setContent(html_73b65d3bc28469b486b200b2b3175ff9);
+            
+        
+
+        poly_line_4f0a54638edc2eb5efa82168f33d1cf0.bindPopup(popup_e5b2aac0f75a06f0fa075e65e9e9fb0a)
+        ;
+
+        
+    
+    
+            var poly_line_4d4ad628699c2b9177a7392f17d00fe1 = L.polyline(
+                [[13.0038, 77.56999], [13.00367, 77.57], [13.00368, 77.56963], [13.00368, 77.56928], [13.00328, 77.56929], [13.0028, 77.5693], [13.00192, 77.56933], [13.0019, 77.56826], [13.0019, 77.56817], [13.00189, 77.5679], [13.00189, 77.56758], [13.00188, 77.56752], [13.00187, 77.56681], [13.00185, 77.56609], [13.00184, 77.56538], [13.00134, 77.5654], [13.001, 77.56541], [13.0007, 77.56542], [13.00041, 77.56543], [13.00002, 77.56545], [12.99916, 77.56547], [12.99916, 77.56524]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_48caf81030a85d7036881f4c6c2c36cb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_725aed5f243ed5d2ee9adfd2a445b45a = $(`<div id="html_725aed5f243ed5d2ee9adfd2a445b45a" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Malleshwaram<br>         To: Rajajinagar Relief Camp<br>         Distance: 1.04 km<br>         Duration: 1.6 min         </div>`)[0];
+                popup_48caf81030a85d7036881f4c6c2c36cb.setContent(html_725aed5f243ed5d2ee9adfd2a445b45a);
+            
+        
+
+        poly_line_4d4ad628699c2b9177a7392f17d00fe1.bindPopup(popup_48caf81030a85d7036881f4c6c2c36cb)
+        ;
+
+        
+    
+    
+            var poly_line_9473d8c0f364a1c804f30773c595de12 = L.polyline(
+                [[12.91062, 77.6454], [12.91064, 77.64518], [12.9107, 77.64463], [12.9107, 77.64456], [12.91074, 77.64455], [12.91181, 77.64459], [12.91193, 77.64459], [12.91207, 77.64459], [12.91218, 77.64459], [12.91288, 77.64461], [12.91336, 77.64463], [12.91352, 77.64463], [12.9136, 77.64467], [12.91503, 77.64477], [12.9151, 77.64477], [12.91516, 77.64477], [12.91519, 77.64477], [12.91565, 77.64479], [12.91565, 77.64541], [12.91572, 77.64715], [12.91573, 77.6476], [12.91576, 77.64854], [12.91577, 77.649], [12.91679, 77.64914], [12.91729, 77.64918], [12.91852, 77.64925], [12.91869, 77.64926], [12.91872, 77.64926], [12.91895, 77.64926], [12.91952, 77.64924], [12.91964, 77.65005], [12.91967, 77.65032], [12.9197, 77.6506], [12.9197, 77.65163], [12.91966, 77.65163], [12.91967, 77.65215], [12.92006, 77.65214], [12.92016, 77.65413], [12.91977, 77.65412], [12.91976, 77.65446], [12.91963, 77.65445]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_1a71e55a0ba2acbf6804a5cbbbb00752 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b7274a2073354f68f5938b13517c9d81 = $(`<div id="html_b7274a2073354f68f5938b13517c9d81" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: HSR Layout<br>         To: HSR Layout Relief Camp<br>         Distance: 2.19 km<br>         Duration: 4.5 min         </div>`)[0];
+                popup_1a71e55a0ba2acbf6804a5cbbbb00752.setContent(html_b7274a2073354f68f5938b13517c9d81);
+            
+        
+
+        poly_line_9473d8c0f364a1c804f30773c595de12.bindPopup(popup_1a71e55a0ba2acbf6804a5cbbbb00752)
+        ;
+
+        
+    
+    
+            var poly_line_0e54658b1b9a3fdb9a1999797072081e = L.polyline(
+                [[12.8892, 77.58267], [12.89018, 77.58265], [12.89034, 77.58229], [12.89048, 77.58188], [12.89048, 77.5818], [12.89072, 77.58179], [12.89109, 77.58178], [12.89136, 77.58186], [12.89218, 77.58184], [12.89229, 77.58183], [12.89229, 77.58191], [12.89229, 77.58211], [12.89219, 77.58304], [12.89213, 77.58354], [12.89188, 77.5855], [12.89187, 77.5856], [12.89198, 77.58562], [12.89266, 77.58561], [12.89291, 77.58565], [12.89303, 77.58565], [12.89301, 77.58574], [12.89304, 77.58617], [12.89309, 77.58626], [12.89316, 77.58632], [12.89506, 77.58615], [12.89572, 77.58611], [12.89578, 77.58605], [12.89585, 77.58596], [12.89592, 77.58591], [12.89692, 77.58595], [12.89691, 77.58607], [12.89691, 77.58619], [12.89695, 77.5864], [12.897, 77.58665], [12.89706, 77.58709], [12.89709, 77.58751], [12.89706, 77.58832], [12.89706, 77.58835], [12.89705, 77.58876], [12.89737, 77.58875], [12.89739, 77.58875], [12.89742, 77.58878], [12.89745, 77.58897], [12.89747, 77.58926], [12.89749, 77.58949], [12.89749, 77.58955], [12.89752, 77.58984], [12.89752, 77.58988], [12.89755, 77.58993], [12.89768, 77.59002], [12.89769, 77.59007], [12.89775, 77.59029], [12.8979, 77.5908], [12.89797, 77.59107], [12.8981, 77.5915], [12.89814, 77.59151], [12.89817, 77.5915]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_ffef11b07407f8aef8b02c0c53904557 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9545c05413b2a736033d1593aff04861 = $(`<div id="html_9545c05413b2a736033d1593aff04861" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Bannerghatta Road<br>         To: Bannerghatta Road Relief Camp<br>         Distance: 2.13 km<br>         Duration: 3.8 min         </div>`)[0];
+                popup_ffef11b07407f8aef8b02c0c53904557.setContent(html_9545c05413b2a736033d1593aff04861);
+            
+        
+
+        poly_line_0e54658b1b9a3fdb9a1999797072081e.bindPopup(popup_ffef11b07407f8aef8b02c0c53904557)
+        ;
+
+        
+    
+    
+            var poly_line_8e3871f22b92bdf0abee71b1e99f554e = L.polyline(
+                [[13.01364, 77.52169], [13.01355, 77.52139], [13.0134, 77.52099], [13.01437, 77.52072], [13.01451, 77.52068], [13.0155, 77.5204], [13.01585, 77.52034], [13.01631, 77.52032], [13.01637, 77.52034], [13.01705, 77.52033], [13.01748, 77.5203], [13.01776, 77.52028], [13.01808, 77.52026], [13.01839, 77.52024], [13.0186, 77.52018], [13.01863, 77.52016], [13.01866, 77.52014], [13.01895, 77.52025], [13.01924, 77.52037], [13.01927, 77.52039], [13.01954, 77.5205], [13.01993, 77.52067], [13.02001, 77.52071], [13.0204, 77.52114], [13.02153, 77.52238], [13.0218, 77.52267], [13.02189, 77.52277], [13.02261, 77.52355], [13.02268, 77.5236], [13.02273, 77.52362], [13.02224, 77.52494], [13.02154, 77.52693], [13.02109, 77.52845], [13.02106, 77.52852], [13.0209, 77.52925], [13.02091, 77.52941], [13.02098, 77.52962], [13.02131, 77.53026], [13.02143, 77.53055], [13.02161, 77.53105], [13.02182, 77.53141], [13.02182, 77.53141]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_32f731f2ef839a8c3aa0647433ad827a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e25ab38107cf4e85604d58035fe10308 = $(`<div id="html_e25ab38107cf4e85604d58035fe10308" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Peenya<br>         To: Peenya Relief Camp<br>         Distance: 2.18 km<br>         Duration: 3.5 min         </div>`)[0];
+                popup_32f731f2ef839a8c3aa0647433ad827a.setContent(html_e25ab38107cf4e85604d58035fe10308);
+            
+        
+
+        poly_line_8e3871f22b92bdf0abee71b1e99f554e.bindPopup(popup_32f731f2ef839a8c3aa0647433ad827a)
+        ;
+
+        
+    
+    
+            var poly_line_707dfafe310cbfc62ced04933400d766 = L.polyline(
+                [[12.9921, 77.55101], [12.99214, 77.55101], [12.99302, 77.55104], [12.99382, 77.55104], [12.9951, 77.55082], [12.99529, 77.55077], [12.99531, 77.55067], [12.99578, 77.55056], [12.99611, 77.55048], [12.99632, 77.55043], [12.99639, 77.55042], [12.99663, 77.55035], [12.9969, 77.5503], [12.99722, 77.55023], [12.99757, 77.55016], [12.99766, 77.55014], [12.99771, 77.55043], [12.99781, 77.55091], [12.99785, 77.55106], [12.99813, 77.55237], [12.99826, 77.55296], [12.99829, 77.55306], [12.99873, 77.55542], [12.99872, 77.5559], [12.99869, 77.55629], [12.99847, 77.55741], [12.99841, 77.5576], [12.99834, 77.55779], [12.99825, 77.55804], [12.99815, 77.55831], [12.99797, 77.55885], [12.99762, 77.5598], [12.9979, 77.55985], [12.99828, 77.55993], [12.99863, 77.56001], [12.99886, 77.56007], [12.99899, 77.56009], [12.99918, 77.56014], [12.99953, 77.56024], [13.00001, 77.5604], [13.00056, 77.56054], [13.0006, 77.56029], [13.0011, 77.56035]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_dee4e8f6b60e054030ca54ecf47833a0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f357fb6465c2df425c7b16e95c1b1e92 = $(`<div id="html_f357fb6465c2df425c7b16e95c1b1e92" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Rajajinagar West<br>         To: Rajajinagar West Relief Camp<br>         Distance: 2.13 km<br>         Duration: 3.4 min         </div>`)[0];
+                popup_dee4e8f6b60e054030ca54ecf47833a0.setContent(html_f357fb6465c2df425c7b16e95c1b1e92);
+            
+        
+
+        poly_line_707dfafe310cbfc62ced04933400d766.bindPopup(popup_dee4e8f6b60e054030ca54ecf47833a0)
+        ;
+
+        
+    
+    
+            var poly_line_75f8f70b278145d14750ee0299f34ee3 = L.polyline(
+                [[12.88093, 77.47218], [12.8818, 77.47199], [12.88247, 77.47188], [12.88296, 77.47182], [12.88514, 77.4715], [12.88548, 77.47145], [12.88576, 77.47147], [12.88698, 77.47173], [12.88685, 77.47265], [12.88674, 77.47343], [12.88821, 77.47364], [12.88818, 77.4741], [12.88816, 77.47444], [12.88813, 77.4749], [12.8881, 77.47527], [12.88806, 77.47565], [12.88822, 77.47565], [12.88816, 77.47599], [12.88815, 77.47607], [12.8881, 77.47628], [12.88808, 77.47641], [12.88804, 77.47665], [12.888, 77.47699], [12.88797, 77.47716], [12.88791, 77.47741], [12.88796, 77.47745], [12.88816, 77.47752], [12.88839, 77.47758], [12.88856, 77.47759], [12.88875, 77.4776], [12.88909, 77.47738], [12.88922, 77.47732], [12.88947, 77.47713], [12.88953, 77.4771], [12.88951, 77.47737], [12.88939, 77.47869]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_7f5e5805a2a9c6202794b31f634f3932 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bc50e7f8528ef1559f803c569175a8ee = $(`<div id="html_bc50e7f8528ef1559f803c569175a8ee" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Kengeri<br>         To: Kengeri Relief Camp<br>         Distance: 1.84 km<br>         Duration: 7.0 min         </div>`)[0];
+                popup_7f5e5805a2a9c6202794b31f634f3932.setContent(html_bc50e7f8528ef1559f803c569175a8ee);
+            
+        
+
+        poly_line_75f8f70b278145d14750ee0299f34ee3.bindPopup(popup_7f5e5805a2a9c6202794b31f634f3932)
+        ;
+
+        
+    
+    
+            var poly_line_ece2eef5289b68a4e1050467d4764542 = L.polyline(
+                [[12.83645, 77.55836], [12.83653, 77.55839], [12.83684, 77.55848], [12.83699, 77.55845], [12.83705, 77.55841], [12.83749, 77.55849], [12.83782, 77.55859], [12.83799, 77.55869], [12.8381, 77.55879], [12.83815, 77.5589], [12.83821, 77.55907], [12.83836, 77.55901], [12.83861, 77.55899], [12.83884, 77.55903], [12.83913, 77.55913], [12.8393, 77.56007], [12.83934, 77.56015], [12.83943, 77.56026], [12.84013, 77.56085], [12.84015, 77.56088], [12.84016, 77.56094], [12.84014, 77.56103], [12.84008, 77.56115], [12.83998, 77.56151], [12.84014, 77.56201], [12.84024, 77.56224], [12.84031, 77.56232], [12.8404, 77.56239], [12.84055, 77.56243], [12.84072, 77.56243], [12.84092, 77.56247], [12.84107, 77.56253], [12.84172, 77.56307], [12.84192, 77.56327], [12.84203, 77.56341], [12.84233, 77.56363], [12.84239, 77.56366], [12.84261, 77.56368], [12.84276, 77.56372], [12.84292, 77.56389], [12.84305, 77.56409], [12.84321, 77.56422], [12.8436, 77.5644], [12.84387, 77.56451], [12.84436, 77.5646], [12.84485, 77.56474], [12.8452, 77.56488], [12.84531, 77.56491], [12.84515, 77.56562], [12.84514, 77.56587], [12.84519, 77.56628], [12.84505, 77.56677], [12.84505, 77.56691], [12.84502, 77.56707], [12.84497, 77.56717]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_a0a83903980936f336e7725e0d48a6a4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0dfaa49b3c3d7ea52ae7524a26a6409e = $(`<div id="html_0dfaa49b3c3d7ea52ae7524a26a6409e" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Kanakapura Road<br>         To: Kanakapura Road Relief Camp<br>         Distance: 1.63 km<br>         Duration: 5.9 min         </div>`)[0];
+                popup_a0a83903980936f336e7725e0d48a6a4.setContent(html_0dfaa49b3c3d7ea52ae7524a26a6409e);
+            
+        
+
+        poly_line_ece2eef5289b68a4e1050467d4764542.bindPopup(popup_a0a83903980936f336e7725e0d48a6a4)
+        ;
+
+        
+    
+    
+            var poly_line_9488dd750548985d60b66b430d40b3a3 = L.polyline(
+                [[12.97191, 77.63912], [12.9726, 77.63908], [12.97261, 77.63959], [12.97261, 77.63986], [12.97261, 77.64001], [12.97262, 77.6403], [12.97263, 77.64051], [12.97266, 77.6411], [12.97341, 77.64106], [12.97385, 77.64103], [12.97607, 77.64094], [12.97733, 77.64087], [12.9777, 77.64086], [12.97802, 77.64083], [12.97834, 77.64082], [12.97842, 77.64081], [12.97998, 77.64075], [12.98139, 77.64066], [12.98244, 77.64059], [12.98292, 77.64058], [12.98404, 77.64053], [12.98412, 77.64052], [12.98415, 77.6406], [12.98481, 77.64247], [12.98547, 77.64411], [12.98563, 77.64458], [12.98579, 77.64499], [12.98582, 77.64508], [12.9862, 77.64608], [12.9867, 77.64734], [12.98703, 77.64802], [12.98704, 77.64807], [12.98693, 77.64805], [12.98625, 77.64808], [12.98588, 77.64815], [12.98536, 77.64836], [12.98364, 77.64935], [12.98346, 77.64945], [12.98189, 77.65042], [12.98186, 77.65036], [12.98147, 77.64914], [12.98137, 77.64886], [12.98126, 77.64855], [12.98114, 77.6482], [12.98113, 77.64816]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_8527bea596d20f369f1ad6bfde92a188 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_75e6813e0c3945ccfd184289e7f90158 = $(`<div id="html_75e6813e0c3945ccfd184289e7f90158" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Domlur<br>         To: Domlur Relief Camp<br>         Distance: 3.35 km<br>         Duration: 5.0 min         </div>`)[0];
+                popup_8527bea596d20f369f1ad6bfde92a188.setContent(html_75e6813e0c3945ccfd184289e7f90158);
+            
+        
+
+        poly_line_9488dd750548985d60b66b430d40b3a3.bindPopup(popup_8527bea596d20f369f1ad6bfde92a188)
+        ;
+
+        
+    
+    
+            var poly_line_9ea7dfd8fc1bcc9c443ed7fd26a8f1d2 = L.polyline(
+                [[13.0268, 77.64176], [13.02674, 77.64176], [13.02607, 77.64173], [13.0261, 77.6413], [13.02555, 77.64129], [13.02521, 77.64204], [13.02487, 77.6428], [13.02465, 77.64328], [13.02461, 77.64337], [13.02431, 77.64407], [13.02371, 77.64548], [13.02342, 77.64616], [13.02312, 77.64683], [13.02285, 77.64743], [13.02278, 77.64759], [13.0226, 77.64803], [13.02222, 77.6489], [13.02156, 77.65042], [13.02188, 77.65055], [13.02215, 77.65066], [13.02222, 77.65069], [13.02354, 77.65102], [13.025, 77.6514], [13.02534, 77.6515], [13.02563, 77.65157], [13.02554, 77.65203], [13.02651, 77.65225], [13.02781, 77.65253], [13.02822, 77.65263], [13.02851, 77.6527], [13.02868, 77.65274], [13.02879, 77.65276], [13.02908, 77.65283], [13.02937, 77.6529], [13.02965, 77.65297], [13.02993, 77.65305], [13.03027, 77.65314], [13.03056, 77.6532], [13.03083, 77.65328], [13.03107, 77.65334], [13.03135, 77.65342], [13.03157, 77.65349], [13.03203, 77.65366], [13.03215, 77.65371], [13.03236, 77.65375], [13.03247, 77.65377], [13.03275, 77.65383], [13.03296, 77.65387], [13.03304, 77.65388], [13.03319, 77.65391], [13.03328, 77.65393], [13.03342, 77.65395], [13.03363, 77.65399], [13.03367, 77.654], [13.03391, 77.65405], [13.03397, 77.65409], [13.034, 77.65413], [13.03412, 77.65431], [13.03429, 77.6544], [13.03461, 77.65445], [13.03489, 77.6545], [13.03511, 77.65454], [13.03519, 77.65455], [13.0354, 77.65459], [13.03546, 77.6546], [13.03579, 77.65466], [13.03608, 77.65471], [13.03617, 77.65473], [13.03671, 77.65491], [13.03671, 77.65475], [13.03678, 77.65459], [13.03699, 77.65439], [13.03756, 77.6539], [13.03763, 77.65378], [13.03768, 77.65323], [13.03772, 77.65275], [13.03773, 77.65248], [13.03774, 77.65193], [13.03778, 77.6506], [13.03743, 77.65058], [13.03723, 77.65057], [13.03714, 77.65056], [13.03684, 77.65054], [13.03657, 77.65053], [13.03613, 77.65088]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_969f8e11086539a6cc1c0e7957e26564 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c7c8858ea52eb931a50a63c743c1c84c = $(`<div id="html_c7c8858ea52eb931a50a63c743c1c84c" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Kalyan Nagar<br>         To: Kalyan Nagar Relief Camp<br>         Distance: 3.79 km<br>         Duration: 5.9 min         </div>`)[0];
+                popup_969f8e11086539a6cc1c0e7957e26564.setContent(html_c7c8858ea52eb931a50a63c743c1c84c);
+            
+        
+
+        poly_line_9ea7dfd8fc1bcc9c443ed7fd26a8f1d2.bindPopup(popup_969f8e11086539a6cc1c0e7957e26564)
+        ;
+
+        
+    
+    
+            var poly_line_9843acc706adbd9e5efd177075ed2907 = L.polyline(
+                [[13.02248, 77.59469], [13.02261, 77.59417], [13.02293, 77.59426], [13.02319, 77.59433], [13.0235, 77.59442], [13.02372, 77.59448], [13.02412, 77.59457], [13.02403, 77.5949], [13.02396, 77.59516], [13.02389, 77.59541], [13.0238, 77.5957], [13.02379, 77.59575], [13.02373, 77.59596], [13.02365, 77.59623], [13.02364, 77.59625], [13.02357, 77.5965], [13.02348, 77.59683], [13.02418, 77.59702], [13.02442, 77.59704], [13.02469, 77.59707], [13.02489, 77.59709], [13.025, 77.59711], [13.02528, 77.59711], [13.02555, 77.59711], [13.02561, 77.59711], [13.02585, 77.59711], [13.02607, 77.59711], [13.02612, 77.59711], [13.02637, 77.59712], [13.02664, 77.59712], [13.02726, 77.59712], [13.02791, 77.59716], [13.02798, 77.59727], [13.02803, 77.5973], [13.02811, 77.59735], [13.02826, 77.59759], [13.02838, 77.59778], [13.02845, 77.59796], [13.02872, 77.59797], [13.02899, 77.59797], [13.02944, 77.59798], [13.02962, 77.59798], [13.02972, 77.59799], [13.03002, 77.59802], [13.0301, 77.59802], [13.03029, 77.59803], [13.0305, 77.59805], [13.03058, 77.59806], [13.03093, 77.59808], [13.03134, 77.59808], [13.03129, 77.59853], [13.03123, 77.5988], [13.0311, 77.59947], [13.03097, 77.60012], [13.03081, 77.60011], [13.03076, 77.60026], [13.03069, 77.60046], [13.03061, 77.60073], [13.03051, 77.60102], [13.0304, 77.60135], [13.03033, 77.60158], [13.03026, 77.60179], [13.03011, 77.60242], [13.03009, 77.60292], [13.03007, 77.60335], [13.03005, 77.60364], [13.03029, 77.60367], [13.03077, 77.60368], [13.03092, 77.60368], [13.03103, 77.60369], [13.03131, 77.60368], [13.03132, 77.60396]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_b64d084e27e6b663e26487ad2624e313 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9c5208c8ae44130fd3f9fe5d8076d7ef = $(`<div id="html_9c5208c8ae44130fd3f9fe5d8076d7ef" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Sanjay Nagar<br>         To: Sanjay Nagar Relief Camp<br>         Distance: 2.22 km<br>         Duration: 3.8 min         </div>`)[0];
+                popup_b64d084e27e6b663e26487ad2624e313.setContent(html_9c5208c8ae44130fd3f9fe5d8076d7ef);
+            
+        
+
+        poly_line_9843acc706adbd9e5efd177075ed2907.bindPopup(popup_b64d084e27e6b663e26487ad2624e313)
+        ;
+
+        
+    
+    
+            var poly_line_e49d0831ada0564541b24f57113a0b9e = L.polyline(
+                [[12.985, 77.55911], [12.9841, 77.55913], [12.98409, 77.55949], [12.98452, 77.55948], [12.98457, 77.56014], [12.98649, 77.56005], [12.98699, 77.55996], [12.98794, 77.55968], [12.98887, 77.55912], [12.99089, 77.55789], [12.99096, 77.55785], [12.99098, 77.55783], [12.99102, 77.5579], [12.99123, 77.55824], [12.99141, 77.55849], [12.99155, 77.55874], [12.99169, 77.55899], [12.99177, 77.55924], [12.99181, 77.55951], [12.99188, 77.55983], [12.99194, 77.56016], [12.99199, 77.56041], [12.99201, 77.56049], [12.99201, 77.56054], [12.99205, 77.56079], [12.99295, 77.56063], [12.99296, 77.56089], [12.99295, 77.56159], [12.99294, 77.56203], [12.99288, 77.56252], [12.99277, 77.56324], [12.99299, 77.5633], [12.99337, 77.56338], [12.99371, 77.56346], [12.99366, 77.56392], [12.99361, 77.56429], [12.99359, 77.56445], [12.99357, 77.56465], [12.99353, 77.56473], [12.99352, 77.56495], [12.99352, 77.56506], [12.99349, 77.56574], [12.99346, 77.56642], [12.9934, 77.56774], [12.99337, 77.56836], [12.99338, 77.56843], [12.99339, 77.56879], [12.99405, 77.56831]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_857961a4a6d8f04f8bb7b48eb6d7ded6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_59785f03a8a236da7229f6ff21c21c17 = $(`<div id="html_59785f03a8a236da7229f6ff21c21c17" style="width: 100.0%; height: 100.0%;">         <b>Route Info</b><br>         From: Rajajinagar East<br>         To: Rajajinagar East Relief Camp<br>         Distance: 2.54 km<br>         Duration: 4.4 min         </div>`)[0];
+                popup_857961a4a6d8f04f8bb7b48eb6d7ded6.setContent(html_59785f03a8a236da7229f6ff21c21c17);
+            
+        
+
+        poly_line_e49d0831ada0564541b24f57113a0b9e.bindPopup(popup_857961a4a6d8f04f8bb7b48eb6d7ded6)
+        ;
+
+        
+    
+    
+            var poly_line_b5e20d1b7c53630ef26777bb79e4e4ab = L.polyline(
+                [[12.96915, 77.7498], [12.96974, 77.7499], [12.96983, 77.74992], [12.96982, 77.74998], [12.96973, 77.74996], [12.96898, 77.74983], [12.96848, 77.74974], [12.96772, 77.74956], [12.96635, 77.74919], [12.9661, 77.74912], [12.96533, 77.74888], [12.96487, 77.74873], [12.96483, 77.74872], [12.96414, 77.7485], [12.96383, 77.74839], [12.96351, 77.74829], [12.9633, 77.74821], [12.96314, 77.74816], [12.9628, 77.74805], [12.96244, 77.74793], [12.96217, 77.74783], [12.96186, 77.74774], [12.96135, 77.74768], [12.9612, 77.74767], [12.96103, 77.7476], [12.96014, 77.74713], [12.95934, 77.74669], [12.95858, 77.74628], [12.95854, 77.74626], [12.95739, 77.74574], [12.95698, 77.74567], [12.95685, 77.74562], [12.95682, 77.74559], [12.95679, 77.74552], [12.95675, 77.74547], [12.95676, 77.7454], [12.95678, 77.74537], [12.95684, 77.74536], [12.95674, 77.74509], [12.95665, 77.74479], [12.95667, 77.74458], [12.9567, 77.74443], [12.95683, 77.74391], [12.95691, 77.74351], [12.95694, 77.74335], [12.95694, 77.74298], [12.95695, 77.74204], [12.95695, 77.74164], [12.95695, 77.74142], [12.95695, 77.74131], [12.95695, 77.74121], [12.95696, 77.74091], [12.95697, 77.74077], [12.95696, 77.74065], [12.95696, 77.74063], [12.95696, 77.74049], [12.95697, 77.74025], [12.95697, 77.73985], [12.95699, 77.73874], [12.95702, 77.73694], [12.95698, 77.73659], [12.95696, 77.73641], [12.95692, 77.7361], [12.95689, 77.73594], [12.95623, 77.73193], [12.95613, 77.73097], [12.9561, 77.73032], [12.95602, 77.72944], [12.956, 77.72914], [12.95598, 77.72894], [12.95595, 77.7285], [12.95592, 77.72786], [12.9559, 77.72709], [12.95587, 77.72581], [12.95586, 77.72549], [12.95585, 77.72529], [12.95585, 77.72513], [12.95584, 77.72458], [12.95582, 77.72349], [12.95582, 77.72332], [12.95581, 77.72263], [12.95581, 77.72235], [12.9558, 77.72209], [12.9558, 77.72184], [12.95578, 77.72093], [12.95577, 77.72015], [12.95573, 77.71876], [12.95573, 77.71846], [12.95573, 77.71779], [12.95573, 77.71732], [12.95573, 77.71718], [12.95573, 77.7171], [12.95573, 77.71695], [12.95574, 77.71672], [12.95574, 77.71651], [12.95571, 77.71646], [12.95568, 77.71625], [12.95572, 77.7157], [12.95577, 77.71507], [12.95579, 77.71481], [12.95579, 77.71471], [12.95583, 77.71427], [12.95588, 77.7136], [12.95596, 77.7134], [12.956, 77.7129], [12.95602, 77.71262], [12.95602, 77.71255], [12.95603, 77.71238], [12.95605, 77.71204], [12.95607, 77.71177], [12.95609, 77.71134], [12.95619, 77.71029], [12.95624, 77.70958], [12.95632, 77.70899], [12.95633, 77.7089], [12.95662, 77.70499], [12.95668, 77.70429], [12.95673, 77.70346], [12.95673, 77.70342], [12.95674, 77.70328], [12.95679, 77.70253], [12.95681, 77.70224], [12.95683, 77.70199], [12.95685, 77.70172], [12.95687, 77.70146], [12.95689, 77.70129], [12.95691, 77.70103], [12.95692, 77.70093], [12.95693, 77.70068], [12.95696, 77.70035], [12.95704, 77.69949], [12.95703, 77.69903], [12.95686, 77.69807], [12.95683, 77.69791], [12.95677, 77.69756], [12.95677, 77.69752], [12.95674, 77.69738], [12.95667, 77.69698], [12.95657, 77.6964], [12.95648, 77.69589], [12.95637, 77.69532], [12.95632, 77.69507], [12.95624, 77.69462], [12.95618, 77.69408], [12.95618, 77.69402], [12.95615, 77.69381], [12.95611, 77.69365], [12.95594, 77.69275], [12.95584, 77.69225], [12.95576, 77.69179], [12.95575, 77.69173], [12.95575, 77.69171], [12.95572, 77.69151], [12.95566, 77.69118], [12.95562, 77.69099], [12.95534, 77.68951], [12.95532, 77.68943], [12.95511, 77.68807], [12.95507, 77.68781], [12.9545, 77.68234], [12.95438, 77.68039], [12.95442, 77.68014], [12.95451, 77.67989], [12.95457, 77.67976], [12.95548, 77.67778], [12.95668, 77.67529], [12.95711, 77.67438], [12.9572, 77.67416], [12.95766, 77.67301], [12.95783, 77.67222], [12.95787, 77.6715], [12.95799, 77.67048], [12.95809, 77.66868], [12.95814, 77.66807], [12.9581, 77.66805], [12.95809, 77.66763], [12.95815, 77.66703], [12.95825, 77.66639], [12.95827, 77.66627], [12.95848, 77.6663], [12.95951, 77.66634], [12.95982, 77.66633], [12.96011, 77.66625], [12.96035, 77.66615], [12.96048, 77.66606], [12.96079, 77.66583], [12.96139, 77.66533], [12.96198, 77.66488], [12.96531, 77.6626], [12.96585, 77.66222], [12.9662, 77.66197], [12.96678, 77.66158], [12.96689, 77.66057], [12.96701, 77.65954], [12.96706, 77.65942], [12.96727, 77.65777], [12.96735, 77.65717], [12.96751, 77.65582], [12.9677, 77.65466], [12.9678, 77.65378], [12.96795, 77.65274], [12.96808, 77.65194], [12.96815, 77.65159], [12.96817, 77.65145], [12.96825, 77.65113], [12.96832, 77.65081], [12.96837, 77.65061], [12.96843, 77.65043], [12.96853, 77.65008], [12.96876, 77.64874], [12.96886, 77.64807], [12.96887, 77.64789], [12.96886, 77.64773], [12.96943, 77.64764], [12.96978, 77.64757], [12.97044, 77.64743], [12.97038, 77.64556], [12.97036, 77.64497], [12.9709, 77.64496], [12.97169, 77.64492], [12.97265, 77.64488], [12.97264, 77.64444], [12.97262, 77.64398]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_0bbe36f00c110efe07a70d26b0f98ad9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9da6690da121ccebe64d54b84b6c35c5 = $(`<div id="html_9da6690da121ccebe64d54b84b6c35c5" style="width: 100.0%; height: 100.0%;">             <b>Route Info</b><br>             From: Whitefield<br>             To: Indiranagar<br>             Distance: 13.78 km<br>             Duration: 18.8 min             </div>`)[0];
+                popup_0bbe36f00c110efe07a70d26b0f98ad9.setContent(html_9da6690da121ccebe64d54b84b6c35c5);
+            
+        
+
+        poly_line_b5e20d1b7c53630ef26777bb79e4e4ab.bindPopup(popup_0bbe36f00c110efe07a70d26b0f98ad9)
+        ;
+
+        
+    
+    
+            var poly_line_12b4aec3b776459c6a84a769193fce2a = L.polyline(
+                [[12.96915, 77.7498], [12.96974, 77.7499], [12.96983, 77.74992], [12.96982, 77.74998], [12.96973, 77.74996], [12.96898, 77.74983], [12.96848, 77.74974], [12.96772, 77.74956], [12.96635, 77.74919], [12.9661, 77.74912], [12.96533, 77.74888], [12.96487, 77.74873], [12.96483, 77.74872], [12.96414, 77.7485], [12.96383, 77.74839], [12.96351, 77.74829], [12.9633, 77.74821], [12.96314, 77.74816], [12.9628, 77.74805], [12.96244, 77.74793], [12.96217, 77.74783], [12.96186, 77.74774], [12.96135, 77.74768], [12.9612, 77.74767], [12.96103, 77.7476], [12.96014, 77.74713], [12.95934, 77.74669], [12.95858, 77.74628], [12.95854, 77.74626], [12.95739, 77.74574], [12.95698, 77.74567], [12.95685, 77.74562], [12.95682, 77.74559], [12.95679, 77.74552], [12.95675, 77.74547], [12.95676, 77.7454], [12.95678, 77.74537], [12.95684, 77.74536], [12.95674, 77.74509], [12.95665, 77.74479], [12.95667, 77.74458], [12.9567, 77.74443], [12.95683, 77.74391], [12.95691, 77.74351], [12.95694, 77.74335], [12.95694, 77.74298], [12.95695, 77.74204], [12.95695, 77.74164], [12.95695, 77.74142], [12.95695, 77.74131], [12.95695, 77.74121], [12.95696, 77.74091], [12.95697, 77.74077], [12.95696, 77.74065], [12.95696, 77.74063], [12.95696, 77.74049], [12.95697, 77.74025], [12.95697, 77.73985], [12.95699, 77.73874], [12.95702, 77.73694], [12.95698, 77.73659], [12.95696, 77.73641], [12.95692, 77.7361], [12.95689, 77.73594], [12.95623, 77.73193], [12.95613, 77.73097], [12.9561, 77.73032], [12.95602, 77.72944], [12.956, 77.72914], [12.95598, 77.72894], [12.95595, 77.7285], [12.95592, 77.72786], [12.9559, 77.72709], [12.95587, 77.72581], [12.95586, 77.72549], [12.95585, 77.72529], [12.95585, 77.72513], [12.95584, 77.72458], [12.95582, 77.72349], [12.95582, 77.72332], [12.95581, 77.72263], [12.95581, 77.72235], [12.9558, 77.72209], [12.9558, 77.72184], [12.95578, 77.72093], [12.95577, 77.72015], [12.95573, 77.71876], [12.95573, 77.71846], [12.95573, 77.71779], [12.95573, 77.71732], [12.95573, 77.71718], [12.95573, 77.7171], [12.95573, 77.71695], [12.95574, 77.71672], [12.95574, 77.71651], [12.95571, 77.71646], [12.95568, 77.71625], [12.95572, 77.7157], [12.95577, 77.71507], [12.95579, 77.71481], [12.95579, 77.71471], [12.95583, 77.71427], [12.95588, 77.7136], [12.95596, 77.7134], [12.956, 77.7129], [12.95602, 77.71262], [12.95602, 77.71255], [12.95603, 77.71238], [12.95605, 77.71204], [12.95607, 77.71177], [12.95609, 77.71134], [12.95619, 77.71029], [12.95624, 77.70958], [12.95632, 77.70899], [12.95633, 77.7089], [12.95662, 77.70499], [12.95668, 77.70429], [12.95673, 77.70346], [12.95673, 77.70342], [12.95674, 77.70328], [12.95679, 77.70253], [12.95681, 77.70224], [12.95683, 77.70199], [12.95685, 77.70172], [12.95687, 77.70146], [12.95689, 77.70129], [12.95691, 77.70103], [12.95692, 77.70093], [12.95693, 77.70068], [12.95696, 77.70035], [12.95704, 77.69949], [12.95703, 77.69903], [12.95686, 77.69807], [12.95683, 77.69791], [12.95677, 77.69756], [12.95677, 77.69752], [12.95674, 77.69738], [12.95667, 77.69698], [12.95657, 77.6964], [12.95648, 77.69589], [12.95637, 77.69532], [12.95632, 77.69507], [12.95624, 77.69462], [12.95618, 77.69408], [12.95618, 77.69402], [12.95615, 77.69381], [12.95611, 77.69365], [12.95594, 77.69275], [12.95584, 77.69225], [12.95576, 77.69179], [12.95575, 77.69173], [12.95575, 77.69171], [12.95572, 77.69151], [12.95566, 77.69118], [12.95562, 77.69099], [12.95534, 77.68951], [12.95532, 77.68943], [12.95511, 77.68807], [12.95507, 77.68781], [12.9545, 77.68234], [12.95438, 77.68039], [12.95442, 77.68014], [12.95451, 77.67989], [12.95457, 77.67976], [12.95548, 77.67778], [12.95668, 77.67529], [12.95711, 77.67438], [12.9572, 77.67416], [12.95766, 77.67301], [12.95783, 77.67222], [12.95787, 77.6715], [12.95799, 77.67048], [12.95809, 77.66868], [12.95814, 77.66807], [12.9581, 77.66805], [12.95809, 77.66763], [12.95815, 77.66703], [12.95825, 77.66639], [12.95827, 77.66627], [12.95848, 77.6663], [12.95951, 77.66634], [12.95982, 77.66633], [12.96011, 77.66625], [12.96035, 77.66615], [12.96048, 77.66606], [12.96079, 77.66583], [12.96139, 77.66533], [12.96198, 77.66488], [12.96531, 77.6626], [12.96585, 77.66222], [12.9662, 77.66197], [12.96678, 77.66158], [12.96689, 77.66057], [12.96701, 77.65954], [12.96706, 77.65942], [12.96727, 77.65777], [12.96735, 77.65717], [12.96751, 77.65582], [12.9677, 77.65466], [12.9678, 77.65378], [12.96795, 77.65274], [12.96808, 77.65194], [12.96815, 77.65159], [12.96817, 77.65145], [12.96825, 77.65113], [12.96832, 77.65081], [12.96837, 77.65061], [12.96843, 77.65043], [12.96853, 77.65008], [12.96876, 77.64874], [12.96886, 77.64807], [12.96887, 77.64789], [12.96886, 77.64773], [12.96943, 77.64764], [12.96978, 77.64757], [12.97044, 77.64743], [12.97038, 77.64556], [12.97036, 77.64497], [12.97034, 77.6441], [12.97032, 77.64351], [12.97032, 77.6433], [12.97031, 77.64319], [12.97027, 77.64314], [12.97023, 77.642], [12.97021, 77.64133], [12.9702, 77.64124], [12.97024, 77.64124], [12.97266, 77.6411], [12.97263, 77.64051], [12.97262, 77.6403], [12.97261, 77.64001], [12.97261, 77.63986], [12.97261, 77.63959], [12.9726, 77.63908], [12.97191, 77.63912]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_2b03d2c797816690bbae230dfa449e6e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_99b96c8dd801509a99b968a99d150a6f = $(`<div id="html_99b96c8dd801509a99b968a99d150a6f" style="width: 100.0%; height: 100.0%;">             <b>Route Info</b><br>             From: Whitefield<br>             To: Domlur<br>             Distance: 14.41 km<br>             Duration: 18.9 min             </div>`)[0];
+                popup_2b03d2c797816690bbae230dfa449e6e.setContent(html_99b96c8dd801509a99b968a99d150a6f);
+            
+        
+
+        poly_line_12b4aec3b776459c6a84a769193fce2a.bindPopup(popup_2b03d2c797816690bbae230dfa449e6e)
+        ;
+
+        
+    
+    
+            var poly_line_657c2bb442f6f4f5ebd159000b3e6f4e = L.polyline(
+                [[12.96915, 77.7498], [12.96974, 77.7499], [12.96983, 77.74992], [12.96982, 77.74998], [12.96973, 77.74996], [12.96898, 77.74983], [12.96848, 77.74974], [12.96772, 77.74956], [12.96635, 77.74919], [12.9661, 77.74912], [12.96533, 77.74888], [12.96487, 77.74873], [12.96483, 77.74872], [12.96414, 77.7485], [12.96383, 77.74839], [12.96351, 77.74829], [12.9633, 77.74821], [12.96314, 77.74816], [12.9628, 77.74805], [12.96244, 77.74793], [12.96217, 77.74783], [12.96186, 77.74774], [12.96135, 77.74768], [12.9612, 77.74767], [12.96103, 77.7476], [12.96014, 77.74713], [12.95934, 77.74669], [12.95858, 77.74628], [12.95854, 77.74626], [12.95739, 77.74574], [12.95698, 77.74567], [12.95685, 77.74562], [12.95682, 77.74559], [12.95679, 77.74552], [12.95675, 77.74547], [12.95676, 77.7454], [12.95678, 77.74537], [12.95684, 77.74536], [12.95674, 77.74509], [12.95665, 77.74479], [12.95667, 77.74458], [12.9567, 77.74443], [12.95683, 77.74391], [12.95691, 77.74351], [12.95694, 77.74335], [12.95694, 77.74298], [12.95695, 77.74204], [12.95695, 77.74164], [12.95695, 77.74142], [12.95695, 77.74131], [12.95695, 77.74121], [12.95696, 77.74091], [12.95697, 77.74077], [12.95696, 77.74065], [12.95696, 77.74063], [12.95696, 77.74049], [12.95697, 77.74025], [12.95697, 77.73985], [12.95699, 77.73874], [12.95702, 77.73694], [12.95698, 77.73659], [12.95696, 77.73641], [12.95692, 77.7361], [12.95689, 77.73594], [12.95623, 77.73193], [12.95613, 77.73097], [12.9561, 77.73032], [12.95602, 77.72944], [12.956, 77.72914], [12.95598, 77.72894], [12.95595, 77.7285], [12.95592, 77.72786], [12.9559, 77.72709], [12.95587, 77.72581], [12.95586, 77.72549], [12.95585, 77.72529], [12.95585, 77.72513], [12.95584, 77.72458], [12.95582, 77.72349], [12.95582, 77.72332], [12.95581, 77.72263], [12.95581, 77.72235], [12.9558, 77.72209], [12.9558, 77.72184], [12.95578, 77.72093], [12.95577, 77.72015], [12.95573, 77.71876], [12.95573, 77.71846], [12.95573, 77.71779], [12.95573, 77.71732], [12.95573, 77.71718], [12.95573, 77.7171], [12.95573, 77.71695], [12.95574, 77.71672], [12.95574, 77.71651], [12.95571, 77.71646], [12.95568, 77.71625], [12.95572, 77.7157], [12.95577, 77.71507], [12.95579, 77.71481], [12.95579, 77.71471], [12.95583, 77.71427], [12.95588, 77.7136], [12.95596, 77.7134], [12.956, 77.7129], [12.95602, 77.71262], [12.95602, 77.71255], [12.95603, 77.71238], [12.95605, 77.71204], [12.95607, 77.71177], [12.95609, 77.71134], [12.95619, 77.71029], [12.95624, 77.70958], [12.95632, 77.70899], [12.95633, 77.7089], [12.95662, 77.70499], [12.95668, 77.70429], [12.95673, 77.70346], [12.95673, 77.70342], [12.95674, 77.70328], [12.95679, 77.70253], [12.95681, 77.70224], [12.95683, 77.70199], [12.95685, 77.70172], [12.95687, 77.70146], [12.95682, 77.70135], [12.95672, 77.7013], [12.95537, 77.70087], [12.95335, 77.70036], [12.95254, 77.70019], [12.95228, 77.70016], [12.95209, 77.70011], [12.95184, 77.70001], [12.95022, 77.69973], [12.94858, 77.69942], [12.94778, 77.69919], [12.94702, 77.69896], [12.94618, 77.69865], [12.94606, 77.69859], [12.94577, 77.69849], [12.94564, 77.69846], [12.9437, 77.69782], [12.94323, 77.69764], [12.94298, 77.69752], [12.94271, 77.69739], [12.94264, 77.69735], [12.94231, 77.69718], [12.94219, 77.6971], [12.94132, 77.69657], [12.94112, 77.69645], [12.94051, 77.6961], [12.93997, 77.69579], [12.93971, 77.69562], [12.93939, 77.69541], [12.93903, 77.69515], [12.93848, 77.69466], [12.93749, 77.69361], [12.93678, 77.69282], [12.93591, 77.69186], [12.93562, 77.69156], [12.93535, 77.69134], [12.93516, 77.69113], [12.93505, 77.69093], [12.93464, 77.69048], [12.9346, 77.69045], [12.93287, 77.68857], [12.93209, 77.6877], [12.93152, 77.68705], [12.93117, 77.68667], [12.93111, 77.68661], [12.93063, 77.68607], [12.9306, 77.68603], [12.93052, 77.68595], [12.93041, 77.68581], [12.92998, 77.68525], [12.92976, 77.68494], [12.92963, 77.68469], [12.92953, 77.68449], [12.92938, 77.68412], [12.92881, 77.68292], [12.92871, 77.68271], [12.92843, 77.68215], [12.92839, 77.68204], [12.92816, 77.68158], [12.92814, 77.68153], [12.92793, 77.68108], [12.92784, 77.68092], [12.92755, 77.68025], [12.92763, 77.6802], [12.92734, 77.67961], [12.92692, 77.67876], [12.92573, 77.67625], [12.92528, 77.67535], [12.92478, 77.67437], [12.92365, 77.67175], [12.92309, 77.67046], [12.9219, 77.66803], [12.92183, 77.66788], [12.92122, 77.66659], [12.9208, 77.6657], [12.92071, 77.66546], [12.92066, 77.66528], [12.92063, 77.66498], [12.92064, 77.66477], [12.92068, 77.66455], [12.92092, 77.66367], [12.9211, 77.66298], [12.9212, 77.66259], [12.92125, 77.66239], [12.92134, 77.66205], [12.92188, 77.65997], [12.92291, 77.6572], [12.92314, 77.65647], [12.92341, 77.65563], [12.92358, 77.65483], [12.92367, 77.65437], [12.92374, 77.65427], [12.92423, 77.6518], [12.92424, 77.65178], [12.92415, 77.65176], [12.9241, 77.65175], [12.92335, 77.65162], [12.92268, 77.65152], [12.9212, 77.65158], [12.92103, 77.65159], [12.92059, 77.65161], [12.92001, 77.65162], [12.91979, 77.65163], [12.9197, 77.65163], [12.9197, 77.6506], [12.91967, 77.65032], [12.91964, 77.65005], [12.91952, 77.64924], [12.91895, 77.64926], [12.91872, 77.64926], [12.91869, 77.64926], [12.91852, 77.64925], [12.91729, 77.64918], [12.91679, 77.64914], [12.91577, 77.649], [12.91576, 77.64854], [12.91573, 77.6476], [12.91572, 77.64715], [12.91565, 77.64541], [12.91565, 77.64479], [12.91519, 77.64477], [12.91516, 77.64477], [12.9151, 77.64477], [12.91503, 77.64477], [12.9136, 77.64467], [12.91351, 77.64471], [12.91336, 77.6447], [12.91288, 77.64468], [12.91229, 77.64466], [12.91217, 77.64466], [12.91207, 77.64466], [12.91193, 77.64466], [12.91181, 77.64466], [12.9107, 77.64463], [12.91064, 77.64518], [12.91062, 77.6454]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_bd510d1433a6f4e7b953db9dff18af43 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e9f67cd05dd8c5e282c5e2683150591c = $(`<div id="html_e9f67cd05dd8c5e282c5e2683150591c" style="width: 100.0%; height: 100.0%;">             <b>Route Info</b><br>             From: Whitefield<br>             To: HSR Layout<br>             Distance: 16.23 km<br>             Duration: 23.6 min             </div>`)[0];
+                popup_bd510d1433a6f4e7b953db9dff18af43.setContent(html_e9f67cd05dd8c5e282c5e2683150591c);
+            
+        
+
+        poly_line_657c2bb442f6f4f5ebd159000b3e6f4e.bindPopup(popup_bd510d1433a6f4e7b953db9dff18af43)
+        ;
+
+        
+    
+    
+            var poly_line_5fb393d9a44cda1cad38c776c5a11580 = L.polyline(
+                [[12.95699, 77.70002], [12.95704, 77.69949], [12.95703, 77.69903], [12.95686, 77.69807], [12.95683, 77.69791], [12.95677, 77.69756], [12.95677, 77.69752], [12.95674, 77.69738], [12.95667, 77.69698], [12.95657, 77.6964], [12.95648, 77.69589], [12.95637, 77.69532], [12.95632, 77.69507], [12.95624, 77.69462], [12.95618, 77.69408], [12.95618, 77.69402], [12.95615, 77.69381], [12.95611, 77.69365], [12.95594, 77.69275], [12.95584, 77.69225], [12.95576, 77.69179], [12.95575, 77.69173], [12.95575, 77.69171], [12.95572, 77.69151], [12.95566, 77.69118], [12.95562, 77.69099], [12.95534, 77.68951], [12.95532, 77.68943], [12.95511, 77.68807], [12.95507, 77.68781], [12.9545, 77.68234], [12.95438, 77.68039], [12.95442, 77.68014], [12.95451, 77.67989], [12.95457, 77.67976], [12.95548, 77.67778], [12.95668, 77.67529], [12.95711, 77.67438], [12.9572, 77.67416], [12.95766, 77.67301], [12.95783, 77.67222], [12.95787, 77.6715], [12.95799, 77.67048], [12.95809, 77.66868], [12.95814, 77.66807], [12.9581, 77.66805], [12.95809, 77.66763], [12.95815, 77.66703], [12.95825, 77.66639], [12.95827, 77.66627], [12.95848, 77.6663], [12.95951, 77.66634], [12.95982, 77.66633], [12.96011, 77.66625], [12.96035, 77.66615], [12.96048, 77.66606], [12.96079, 77.66583], [12.96139, 77.66533], [12.96198, 77.66488], [12.96531, 77.6626], [12.96585, 77.66222], [12.9662, 77.66197], [12.96678, 77.66158], [12.96689, 77.66057], [12.96701, 77.65954], [12.96706, 77.65942], [12.96727, 77.65777], [12.96735, 77.65717], [12.96751, 77.65582], [12.9677, 77.65466], [12.9678, 77.65378], [12.96795, 77.65274], [12.96808, 77.65194], [12.96815, 77.65159], [12.96817, 77.65145], [12.96825, 77.65113], [12.96832, 77.65081], [12.96837, 77.65061], [12.96843, 77.65043], [12.96853, 77.65008], [12.96876, 77.64874], [12.96886, 77.64807], [12.96887, 77.64789], [12.96886, 77.64773], [12.96943, 77.64764], [12.96978, 77.64757], [12.97044, 77.64743], [12.97038, 77.64556], [12.97036, 77.64497], [12.9709, 77.64496], [12.97169, 77.64492], [12.97265, 77.64488], [12.97264, 77.64444], [12.97262, 77.64398]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_23d4e0dbfcad055a07a38d5c20098c4f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_26b3bf62c1e560fe1fdd2bb6333ed6d5 = $(`<div id="html_26b3bf62c1e560fe1fdd2bb6333ed6d5" style="width: 100.0%; height: 100.0%;">             <b>Route Info</b><br>             From: Marathahalli<br>             To: Indiranagar<br>             Distance: 7.19 km<br>             Duration: 10.1 min             </div>`)[0];
+                popup_23d4e0dbfcad055a07a38d5c20098c4f.setContent(html_26b3bf62c1e560fe1fdd2bb6333ed6d5);
+            
+        
+
+        poly_line_5fb393d9a44cda1cad38c776c5a11580.bindPopup(popup_23d4e0dbfcad055a07a38d5c20098c4f)
+        ;
+
+        
+    
+    
+            var poly_line_4ababef4a838593edc0f55a967b1ed8b = L.polyline(
+                [[12.95699, 77.70002], [12.95704, 77.69949], [12.95703, 77.69903], [12.95686, 77.69807], [12.95683, 77.69791], [12.95677, 77.69756], [12.95677, 77.69752], [12.95674, 77.69738], [12.95667, 77.69698], [12.95657, 77.6964], [12.95648, 77.69589], [12.95637, 77.69532], [12.95632, 77.69507], [12.95624, 77.69462], [12.95618, 77.69408], [12.95618, 77.69402], [12.95615, 77.69381], [12.95611, 77.69365], [12.95594, 77.69275], [12.95584, 77.69225], [12.95576, 77.69179], [12.95575, 77.69173], [12.95575, 77.69171], [12.95572, 77.69151], [12.95566, 77.69118], [12.95562, 77.69099], [12.95534, 77.68951], [12.95532, 77.68943], [12.95511, 77.68807], [12.95507, 77.68781], [12.9545, 77.68234], [12.95438, 77.68039], [12.95442, 77.68014], [12.95451, 77.67989], [12.95457, 77.67976], [12.95548, 77.67778], [12.95668, 77.67529], [12.95711, 77.67438], [12.9572, 77.67416], [12.95766, 77.67301], [12.95783, 77.67222], [12.95787, 77.6715], [12.95799, 77.67048], [12.95809, 77.66868], [12.95814, 77.66807], [12.9581, 77.66805], [12.95809, 77.66763], [12.95815, 77.66703], [12.95825, 77.66639], [12.95827, 77.66627], [12.95848, 77.6663], [12.95951, 77.66634], [12.95982, 77.66633], [12.96011, 77.66625], [12.96035, 77.66615], [12.96048, 77.66606], [12.96079, 77.66583], [12.96139, 77.66533], [12.96198, 77.66488], [12.96531, 77.6626], [12.96585, 77.66222], [12.9662, 77.66197], [12.96678, 77.66158], [12.96689, 77.66057], [12.96701, 77.65954], [12.96706, 77.65942], [12.96727, 77.65777], [12.96735, 77.65717], [12.96751, 77.65582], [12.9677, 77.65466], [12.9678, 77.65378], [12.96795, 77.65274], [12.96808, 77.65194], [12.96815, 77.65159], [12.96817, 77.65145], [12.96825, 77.65113], [12.96832, 77.65081], [12.96837, 77.65061], [12.96843, 77.65043], [12.96853, 77.65008], [12.96876, 77.64874], [12.96886, 77.64807], [12.96887, 77.64789], [12.96886, 77.64773], [12.96943, 77.64764], [12.96978, 77.64757], [12.97044, 77.64743], [12.97038, 77.64556], [12.97036, 77.64497], [12.97034, 77.6441], [12.97032, 77.64351], [12.97032, 77.6433], [12.97031, 77.64319], [12.97027, 77.64314], [12.97023, 77.642], [12.97021, 77.64133], [12.9702, 77.64124], [12.97024, 77.64124], [12.97266, 77.6411], [12.97263, 77.64051], [12.97262, 77.6403], [12.97261, 77.64001], [12.97261, 77.63986], [12.97261, 77.63959], [12.9726, 77.63908], [12.97191, 77.63912]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_f0997875cabd79a6989a6650fb435e4b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b3ff38fbb07f546195cc39021bbc21c5 = $(`<div id="html_b3ff38fbb07f546195cc39021bbc21c5" style="width: 100.0%; height: 100.0%;">             <b>Route Info</b><br>             From: Marathahalli<br>             To: Domlur<br>             Distance: 7.82 km<br>             Duration: 10.2 min             </div>`)[0];
+                popup_f0997875cabd79a6989a6650fb435e4b.setContent(html_b3ff38fbb07f546195cc39021bbc21c5);
+            
+        
+
+        poly_line_4ababef4a838593edc0f55a967b1ed8b.bindPopup(popup_f0997875cabd79a6989a6650fb435e4b)
+        ;
+
+        
+    
+    
+            var poly_line_e3ac78be928d3126b4c6946d1d0431ac = L.polyline(
+                [[12.95699, 77.70002], [12.95704, 77.69949], [12.95703, 77.69903], [12.95686, 77.69807], [12.95676, 77.69807], [12.9558, 77.69796], [12.95552, 77.69795], [12.95553, 77.69827], [12.95513, 77.69991], [12.95522, 77.69993], [12.9551, 77.70046], [12.95556, 77.70058], [12.95617, 77.7008], [12.95641, 77.70087], [12.95675, 77.70094], [12.9568, 77.70098], [12.95682, 77.70102], [12.95684, 77.70105], [12.95684, 77.70117], [12.95679, 77.70128], [12.95677, 77.7013], [12.95672, 77.7013], [12.95537, 77.70087], [12.95335, 77.70036], [12.95254, 77.70019], [12.95228, 77.70016], [12.95209, 77.70011], [12.95184, 77.70001], [12.95022, 77.69973], [12.94858, 77.69942], [12.94778, 77.69919], [12.94702, 77.69896], [12.94618, 77.69865], [12.94606, 77.69859], [12.94577, 77.69849], [12.94564, 77.69846], [12.9437, 77.69782], [12.94323, 77.69764], [12.94298, 77.69752], [12.94271, 77.69739], [12.94264, 77.69735], [12.94231, 77.69718], [12.94219, 77.6971], [12.94132, 77.69657], [12.94112, 77.69645], [12.94051, 77.6961], [12.93997, 77.69579], [12.93971, 77.69562], [12.93939, 77.69541], [12.93903, 77.69515], [12.93848, 77.69466], [12.93749, 77.69361], [12.93678, 77.69282], [12.93591, 77.69186], [12.93562, 77.69156], [12.93535, 77.69134], [12.93516, 77.69113], [12.93505, 77.69093], [12.93464, 77.69048], [12.9346, 77.69045], [12.93287, 77.68857], [12.93209, 77.6877], [12.93152, 77.68705], [12.93117, 77.68667], [12.93111, 77.68661], [12.93063, 77.68607], [12.9306, 77.68603], [12.93052, 77.68595], [12.93041, 77.68581], [12.92998, 77.68525], [12.92976, 77.68494], [12.92963, 77.68469], [12.92953, 77.68449], [12.92938, 77.68412], [12.92881, 77.68292], [12.92871, 77.68271], [12.92843, 77.68215], [12.92839, 77.68204], [12.92816, 77.68158], [12.92814, 77.68153], [12.92793, 77.68108], [12.92784, 77.68092], [12.92755, 77.68025], [12.92763, 77.6802], [12.92734, 77.67961], [12.92692, 77.67876], [12.92573, 77.67625], [12.92528, 77.67535], [12.92478, 77.67437], [12.92365, 77.67175], [12.92309, 77.67046], [12.9219, 77.66803], [12.92183, 77.66788], [12.92122, 77.66659], [12.9208, 77.6657], [12.92071, 77.66546], [12.92066, 77.66528], [12.92063, 77.66498], [12.92064, 77.66477], [12.92068, 77.66455], [12.92092, 77.66367], [12.9211, 77.66298], [12.9212, 77.66259], [12.92125, 77.66239], [12.92134, 77.66205], [12.92188, 77.65997], [12.92291, 77.6572], [12.92314, 77.65647], [12.92341, 77.65563], [12.92358, 77.65483], [12.92367, 77.65437], [12.92374, 77.65427], [12.92423, 77.6518], [12.92424, 77.65178], [12.92415, 77.65176], [12.9241, 77.65175], [12.92335, 77.65162], [12.92268, 77.65152], [12.9212, 77.65158], [12.92103, 77.65159], [12.92059, 77.65161], [12.92001, 77.65162], [12.91979, 77.65163], [12.9197, 77.65163], [12.9197, 77.6506], [12.91967, 77.65032], [12.91964, 77.65005], [12.91952, 77.64924], [12.91895, 77.64926], [12.91872, 77.64926], [12.91869, 77.64926], [12.91852, 77.64925], [12.91729, 77.64918], [12.91679, 77.64914], [12.91577, 77.649], [12.91576, 77.64854], [12.91573, 77.6476], [12.91572, 77.64715], [12.91565, 77.64541], [12.91565, 77.64479], [12.91519, 77.64477], [12.91516, 77.64477], [12.9151, 77.64477], [12.91503, 77.64477], [12.9136, 77.64467], [12.91351, 77.64471], [12.91336, 77.6447], [12.91288, 77.64468], [12.91229, 77.64466], [12.91217, 77.64466], [12.91207, 77.64466], [12.91193, 77.64466], [12.91181, 77.64466], [12.9107, 77.64463], [12.91064, 77.64518], [12.91062, 77.6454]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_41e8a03525da07367eb9cc6f73392ba1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5c6c246542100bdbfd361ab0c4f42b1e = $(`<div id="html_5c6c246542100bdbfd361ab0c4f42b1e" style="width: 100.0%; height: 100.0%;">             <b>Route Info</b><br>             From: Marathahalli<br>             To: HSR Layout<br>             Distance: 10.67 km<br>             Duration: 17.5 min             </div>`)[0];
+                popup_41e8a03525da07367eb9cc6f73392ba1.setContent(html_5c6c246542100bdbfd361ab0c4f42b1e);
+            
+        
+
+        poly_line_e3ac78be928d3126b4c6946d1d0431ac.bindPopup(popup_41e8a03525da07367eb9cc6f73392ba1)
+        ;
+
+        
+    
+    
+            var poly_line_7863505258fba750d6d86a5145442f8f = L.polyline(
+                [[12.978, 77.75122], [12.97833, 77.75129], [12.9795, 77.75151], [12.98002, 77.75162], [12.98001, 77.75168], [12.97943, 77.75158], [12.97733, 77.75116], [12.9763, 77.75095], [12.9748, 77.75065], [12.97391, 77.7505], [12.97223, 77.7503], [12.97212, 77.75028], [12.97189, 77.75025], [12.97137, 77.75019], [12.97103, 77.75014], [12.97027, 77.75003], [12.96993, 77.74999], [12.96982, 77.74998], [12.96973, 77.74996], [12.96898, 77.74983], [12.96848, 77.74974], [12.96772, 77.74956], [12.96635, 77.74919], [12.9661, 77.74912], [12.96533, 77.74888], [12.96487, 77.74873], [12.96483, 77.74872], [12.96414, 77.7485], [12.96383, 77.74839], [12.96351, 77.74829], [12.9633, 77.74821], [12.96314, 77.74816], [12.9628, 77.74805], [12.96244, 77.74793], [12.96217, 77.74783], [12.96186, 77.74774], [12.96135, 77.74768], [12.9612, 77.74767], [12.96103, 77.7476], [12.96014, 77.74713], [12.95934, 77.74669], [12.95858, 77.74628], [12.95854, 77.74626], [12.95739, 77.74574], [12.95698, 77.74567], [12.95685, 77.74562], [12.95682, 77.74559], [12.95679, 77.74552], [12.95675, 77.74547], [12.95676, 77.7454], [12.95678, 77.74537], [12.95684, 77.74536], [12.95674, 77.74509], [12.95665, 77.74479], [12.95667, 77.74458], [12.9567, 77.74443], [12.95683, 77.74391], [12.95691, 77.74351], [12.95694, 77.74335], [12.95694, 77.74298], [12.95695, 77.74204], [12.95695, 77.74164], [12.95695, 77.74142], [12.95695, 77.74131], [12.95695, 77.74121], [12.95696, 77.74091], [12.95697, 77.74077], [12.95696, 77.74065], [12.95696, 77.74063], [12.95696, 77.74049], [12.95697, 77.74025], [12.95697, 77.73985], [12.95699, 77.73874], [12.95702, 77.73694], [12.95698, 77.73659], [12.95696, 77.73641], [12.95692, 77.7361], [12.95689, 77.73594], [12.95623, 77.73193], [12.95613, 77.73097], [12.9561, 77.73032], [12.95602, 77.72944], [12.956, 77.72914], [12.95598, 77.72894], [12.95595, 77.7285], [12.95592, 77.72786], [12.9559, 77.72709], [12.95587, 77.72581], [12.95586, 77.72549], [12.95585, 77.72529], [12.95585, 77.72513], [12.95584, 77.72458], [12.95582, 77.72349], [12.95582, 77.72332], [12.95581, 77.72263], [12.95581, 77.72235], [12.9558, 77.72209], [12.9558, 77.72184], [12.95578, 77.72093], [12.95577, 77.72015], [12.95573, 77.71876], [12.95573, 77.71846], [12.95573, 77.71779], [12.95573, 77.71732], [12.95573, 77.71718], [12.95573, 77.7171], [12.95573, 77.71695], [12.95574, 77.71672], [12.95574, 77.71651], [12.95571, 77.71646], [12.95568, 77.71625], [12.95572, 77.7157], [12.95577, 77.71507], [12.95579, 77.71481], [12.95579, 77.71471], [12.95583, 77.71427], [12.95588, 77.7136], [12.95596, 77.7134], [12.956, 77.7129], [12.95602, 77.71262], [12.95602, 77.71255], [12.95603, 77.71238], [12.95605, 77.71204], [12.95607, 77.71177], [12.95609, 77.71134], [12.95619, 77.71029], [12.95624, 77.70958], [12.95632, 77.70899], [12.95633, 77.7089], [12.95662, 77.70499], [12.95668, 77.70429], [12.95673, 77.70346], [12.95673, 77.70342], [12.95674, 77.70328], [12.95679, 77.70253], [12.95681, 77.70224], [12.95683, 77.70199], [12.95685, 77.70172], [12.95687, 77.70146], [12.95689, 77.70129], [12.95691, 77.70103], [12.95692, 77.70093], [12.95693, 77.70068], [12.95696, 77.70035], [12.95704, 77.69949], [12.95703, 77.69903], [12.95686, 77.69807], [12.95683, 77.69791], [12.95677, 77.69756], [12.95677, 77.69752], [12.95674, 77.69738], [12.95667, 77.69698], [12.95657, 77.6964], [12.95648, 77.69589], [12.95637, 77.69532], [12.95632, 77.69507], [12.95624, 77.69462], [12.95618, 77.69408], [12.95618, 77.69402], [12.95615, 77.69381], [12.95611, 77.69365], [12.95594, 77.69275], [12.95584, 77.69225], [12.95576, 77.69179], [12.95575, 77.69173], [12.95575, 77.69171], [12.95572, 77.69151], [12.95566, 77.69118], [12.95562, 77.69099], [12.95534, 77.68951], [12.95532, 77.68943], [12.95511, 77.68807], [12.95507, 77.68781], [12.9545, 77.68234], [12.95438, 77.68039], [12.95442, 77.68014], [12.95451, 77.67989], [12.95457, 77.67976], [12.95548, 77.67778], [12.95668, 77.67529], [12.95711, 77.67438], [12.9572, 77.67416], [12.95766, 77.67301], [12.95783, 77.67222], [12.95787, 77.6715], [12.95799, 77.67048], [12.95809, 77.66868], [12.95814, 77.66807], [12.9581, 77.66805], [12.95809, 77.66763], [12.95815, 77.66703], [12.95825, 77.66639], [12.95827, 77.66627], [12.95848, 77.6663], [12.95951, 77.66634], [12.95982, 77.66633], [12.96011, 77.66625], [12.96035, 77.66615], [12.96048, 77.66606], [12.96079, 77.66583], [12.96139, 77.66533], [12.96198, 77.66488], [12.96531, 77.6626], [12.96585, 77.66222], [12.9662, 77.66197], [12.96678, 77.66158], [12.96689, 77.66057], [12.96701, 77.65954], [12.96706, 77.65942], [12.96727, 77.65777], [12.96735, 77.65717], [12.96751, 77.65582], [12.9677, 77.65466], [12.9678, 77.65378], [12.96795, 77.65274], [12.96808, 77.65194], [12.96815, 77.65159], [12.96817, 77.65145], [12.96825, 77.65113], [12.96832, 77.65081], [12.96837, 77.65061], [12.96843, 77.65043], [12.96853, 77.65008], [12.96876, 77.64874], [12.96886, 77.64807], [12.96887, 77.64789], [12.96886, 77.64773], [12.96943, 77.64764], [12.96978, 77.64757], [12.97044, 77.64743], [12.97038, 77.64556], [12.97036, 77.64497], [12.9709, 77.64496], [12.97169, 77.64492], [12.97265, 77.64488], [12.97264, 77.64444], [12.97262, 77.64398]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_cad6d9e481a53ba54aba3a9852092413 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_878f9a07db6daa697d16e77b2a7099ed = $(`<div id="html_878f9a07db6daa697d16e77b2a7099ed" style="width: 100.0%; height: 100.0%;">             <b>Route Info</b><br>             From: Whitefield Industrial Area<br>             To: Indiranagar<br>             Distance: 15.08 km<br>             Duration: 20.3 min             </div>`)[0];
+                popup_cad6d9e481a53ba54aba3a9852092413.setContent(html_878f9a07db6daa697d16e77b2a7099ed);
+            
+        
+
+        poly_line_7863505258fba750d6d86a5145442f8f.bindPopup(popup_cad6d9e481a53ba54aba3a9852092413)
+        ;
+
+        
+    
+    
+            var poly_line_8391677c93163eafa5cfbc24a46dfbeb = L.polyline(
+                [[12.978, 77.75122], [12.97833, 77.75129], [12.9795, 77.75151], [12.98002, 77.75162], [12.98001, 77.75168], [12.97943, 77.75158], [12.97733, 77.75116], [12.9763, 77.75095], [12.9748, 77.75065], [12.97391, 77.7505], [12.97223, 77.7503], [12.97212, 77.75028], [12.97189, 77.75025], [12.97137, 77.75019], [12.97103, 77.75014], [12.97027, 77.75003], [12.96993, 77.74999], [12.96982, 77.74998], [12.96973, 77.74996], [12.96898, 77.74983], [12.96848, 77.74974], [12.96772, 77.74956], [12.96635, 77.74919], [12.9661, 77.74912], [12.96533, 77.74888], [12.96487, 77.74873], [12.96483, 77.74872], [12.96414, 77.7485], [12.96383, 77.74839], [12.96351, 77.74829], [12.9633, 77.74821], [12.96314, 77.74816], [12.9628, 77.74805], [12.96244, 77.74793], [12.96217, 77.74783], [12.96186, 77.74774], [12.96135, 77.74768], [12.9612, 77.74767], [12.96103, 77.7476], [12.96014, 77.74713], [12.95934, 77.74669], [12.95858, 77.74628], [12.95854, 77.74626], [12.95739, 77.74574], [12.95698, 77.74567], [12.95685, 77.74562], [12.95682, 77.74559], [12.95679, 77.74552], [12.95675, 77.74547], [12.95676, 77.7454], [12.95678, 77.74537], [12.95684, 77.74536], [12.95674, 77.74509], [12.95665, 77.74479], [12.95667, 77.74458], [12.9567, 77.74443], [12.95683, 77.74391], [12.95691, 77.74351], [12.95694, 77.74335], [12.95694, 77.74298], [12.95695, 77.74204], [12.95695, 77.74164], [12.95695, 77.74142], [12.95695, 77.74131], [12.95695, 77.74121], [12.95696, 77.74091], [12.95697, 77.74077], [12.95696, 77.74065], [12.95696, 77.74063], [12.95696, 77.74049], [12.95697, 77.74025], [12.95697, 77.73985], [12.95699, 77.73874], [12.95702, 77.73694], [12.95698, 77.73659], [12.95696, 77.73641], [12.95692, 77.7361], [12.95689, 77.73594], [12.95623, 77.73193], [12.95613, 77.73097], [12.9561, 77.73032], [12.95602, 77.72944], [12.956, 77.72914], [12.95598, 77.72894], [12.95595, 77.7285], [12.95592, 77.72786], [12.9559, 77.72709], [12.95587, 77.72581], [12.95586, 77.72549], [12.95585, 77.72529], [12.95585, 77.72513], [12.95584, 77.72458], [12.95582, 77.72349], [12.95582, 77.72332], [12.95581, 77.72263], [12.95581, 77.72235], [12.9558, 77.72209], [12.9558, 77.72184], [12.95578, 77.72093], [12.95577, 77.72015], [12.95573, 77.71876], [12.95573, 77.71846], [12.95573, 77.71779], [12.95573, 77.71732], [12.95573, 77.71718], [12.95573, 77.7171], [12.95573, 77.71695], [12.95574, 77.71672], [12.95574, 77.71651], [12.95571, 77.71646], [12.95568, 77.71625], [12.95572, 77.7157], [12.95577, 77.71507], [12.95579, 77.71481], [12.95579, 77.71471], [12.95583, 77.71427], [12.95588, 77.7136], [12.95596, 77.7134], [12.956, 77.7129], [12.95602, 77.71262], [12.95602, 77.71255], [12.95603, 77.71238], [12.95605, 77.71204], [12.95607, 77.71177], [12.95609, 77.71134], [12.95619, 77.71029], [12.95624, 77.70958], [12.95632, 77.70899], [12.95633, 77.7089], [12.95662, 77.70499], [12.95668, 77.70429], [12.95673, 77.70346], [12.95673, 77.70342], [12.95674, 77.70328], [12.95679, 77.70253], [12.95681, 77.70224], [12.95683, 77.70199], [12.95685, 77.70172], [12.95687, 77.70146], [12.95689, 77.70129], [12.95691, 77.70103], [12.95692, 77.70093], [12.95693, 77.70068], [12.95696, 77.70035], [12.95704, 77.69949], [12.95703, 77.69903], [12.95686, 77.69807], [12.95683, 77.69791], [12.95677, 77.69756], [12.95677, 77.69752], [12.95674, 77.69738], [12.95667, 77.69698], [12.95657, 77.6964], [12.95648, 77.69589], [12.95637, 77.69532], [12.95632, 77.69507], [12.95624, 77.69462], [12.95618, 77.69408], [12.95618, 77.69402], [12.95615, 77.69381], [12.95611, 77.69365], [12.95594, 77.69275], [12.95584, 77.69225], [12.95576, 77.69179], [12.95575, 77.69173], [12.95575, 77.69171], [12.95572, 77.69151], [12.95566, 77.69118], [12.95562, 77.69099], [12.95534, 77.68951], [12.95532, 77.68943], [12.95511, 77.68807], [12.95507, 77.68781], [12.9545, 77.68234], [12.95438, 77.68039], [12.95442, 77.68014], [12.95451, 77.67989], [12.95457, 77.67976], [12.95548, 77.67778], [12.95668, 77.67529], [12.95711, 77.67438], [12.9572, 77.67416], [12.95766, 77.67301], [12.95783, 77.67222], [12.95787, 77.6715], [12.95799, 77.67048], [12.95809, 77.66868], [12.95814, 77.66807], [12.9581, 77.66805], [12.95809, 77.66763], [12.95815, 77.66703], [12.95825, 77.66639], [12.95827, 77.66627], [12.95848, 77.6663], [12.95951, 77.66634], [12.95982, 77.66633], [12.96011, 77.66625], [12.96035, 77.66615], [12.96048, 77.66606], [12.96079, 77.66583], [12.96139, 77.66533], [12.96198, 77.66488], [12.96531, 77.6626], [12.96585, 77.66222], [12.9662, 77.66197], [12.96678, 77.66158], [12.96689, 77.66057], [12.96701, 77.65954], [12.96706, 77.65942], [12.96727, 77.65777], [12.96735, 77.65717], [12.96751, 77.65582], [12.9677, 77.65466], [12.9678, 77.65378], [12.96795, 77.65274], [12.96808, 77.65194], [12.96815, 77.65159], [12.96817, 77.65145], [12.96825, 77.65113], [12.96832, 77.65081], [12.96837, 77.65061], [12.96843, 77.65043], [12.96853, 77.65008], [12.96876, 77.64874], [12.96886, 77.64807], [12.96887, 77.64789], [12.96886, 77.64773], [12.96943, 77.64764], [12.96978, 77.64757], [12.97044, 77.64743], [12.97038, 77.64556], [12.97036, 77.64497], [12.97034, 77.6441], [12.97032, 77.64351], [12.97032, 77.6433], [12.97031, 77.64319], [12.97027, 77.64314], [12.97023, 77.642], [12.97021, 77.64133], [12.9702, 77.64124], [12.97024, 77.64124], [12.97266, 77.6411], [12.97263, 77.64051], [12.97262, 77.6403], [12.97261, 77.64001], [12.97261, 77.63986], [12.97261, 77.63959], [12.9726, 77.63908], [12.97191, 77.63912]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_ccebcddb4a511e9724a56f3cc83278b6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ee27e6485d06acc131b0208af1702e38 = $(`<div id="html_ee27e6485d06acc131b0208af1702e38" style="width: 100.0%; height: 100.0%;">             <b>Route Info</b><br>             From: Whitefield Industrial Area<br>             To: Domlur<br>             Distance: 15.71 km<br>             Duration: 20.4 min             </div>`)[0];
+                popup_ccebcddb4a511e9724a56f3cc83278b6.setContent(html_ee27e6485d06acc131b0208af1702e38);
+            
+        
+
+        poly_line_8391677c93163eafa5cfbc24a46dfbeb.bindPopup(popup_ccebcddb4a511e9724a56f3cc83278b6)
+        ;
+
+        
+    
+    
+            var poly_line_163817409165dda054d181c7f8c5d6ed = L.polyline(
+                [[12.978, 77.75122], [12.97833, 77.75129], [12.9795, 77.75151], [12.98002, 77.75162], [12.98011, 77.75164], [12.98063, 77.75173], [12.98166, 77.75192], [12.98208, 77.75081], [12.98224, 77.75032], [12.9823, 77.75012], [12.98232, 77.74982], [12.98239, 77.74907], [12.98251, 77.74857], [12.98257, 77.74833], [12.98265, 77.74805], [12.98278, 77.74767], [12.98292, 77.7472], [12.98296, 77.74701], [12.9832, 77.74596], [12.98342, 77.7452], [12.98364, 77.74399], [12.98381, 77.74379], [12.9853, 77.74439], [12.98581, 77.74462], [12.98636, 77.74484], [12.98668, 77.74347], [12.987, 77.74227], [12.9874, 77.74074], [12.98748, 77.74043], [12.98753, 77.7402], [12.98755, 77.74007], [12.98756, 77.73939], [12.98756, 77.73876], [12.98753, 77.73724], [12.98753, 77.73714], [12.98752, 77.73691], [12.98755, 77.73589], [12.98763, 77.73516], [12.98784, 77.73377], [12.98785, 77.73369], [12.98788, 77.73346], [12.98784, 77.73323], [12.98778, 77.73306], [12.98761, 77.73277], [12.98737, 77.73252], [12.98677, 77.73206], [12.98656, 77.73187], [12.98647, 77.7318], [12.98627, 77.7315], [12.9858, 77.73063], [12.98555, 77.73027], [12.98519, 77.7299], [12.98458, 77.72935], [12.98423, 77.72904], [12.98431, 77.72891], [12.9853, 77.72979], [12.98557, 77.73008], [12.98578, 77.73036], [12.98604, 77.73078], [12.98649, 77.7316], [12.98652, 77.73166], [12.98659, 77.73174], [12.98671, 77.73169], [12.9879, 77.73167], [12.98816, 77.73166], [12.98851, 77.72966], [12.98852, 77.7296], [12.98877, 77.72822], [12.98897, 77.72735], [12.98908, 77.72683], [12.98914, 77.72657], [12.98918, 77.72642], [12.98925, 77.72611], [12.98934, 77.72589], [12.98977, 77.72521], [12.98999, 77.72478], [12.99027, 77.72385], [12.99053, 77.72286], [12.99079, 77.72198], [12.99085, 77.72184], [12.99097, 77.72162], [12.99131, 77.721], [12.99144, 77.72077], [12.99174, 77.72033], [12.99213, 77.71964], [12.99214, 77.7196], [12.99217, 77.71946], [12.99219, 77.71927], [12.9922, 77.71876], [12.99218, 77.71779], [12.99222, 77.71693], [12.99226, 77.71644], [12.99222, 77.7162], [12.99216, 77.716], [12.99204, 77.71584], [12.99135, 77.71511], [12.99122, 77.71496], [12.99111, 77.71484], [12.991, 77.71472], [12.99105, 77.71467], [12.9904, 77.71391], [12.99066, 77.71401], [12.99096, 77.71402], [12.99122, 77.71401], [12.99148, 77.71394], [12.99176, 77.71377], [12.99192, 77.7136], [12.99199, 77.71339], [12.99231, 77.71248], [12.99246, 77.712], [12.99268, 77.71106], [12.99274, 77.71069], [12.99278, 77.71014], [12.99281, 77.70915], [12.99284, 77.70767], [12.99295, 77.70576], [12.99295, 77.70558], [12.99298, 77.70531], [12.99302, 77.70506], [12.99307, 77.70484], [12.99318, 77.70446], [12.99334, 77.70389], [12.99357, 77.70296], [12.99362, 77.70279], [12.99392, 77.70166], [12.99399, 77.70139], [12.99407, 77.70107], [12.99415, 77.70078], [12.99424, 77.70039], [12.9943, 77.70015], [12.99435, 77.69998], [12.9945, 77.69937], [12.9946, 77.69908], [12.99479, 77.69857], [12.99482, 77.69849], [12.99501, 77.69802], [12.99506, 77.6978], [12.99509, 77.69765], [12.99512, 77.69748], [12.99514, 77.69735], [12.99516, 77.69718], [12.99518, 77.69699], [12.9952, 77.6968], [12.99522, 77.69663], [12.99524, 77.69648], [12.99526, 77.69635], [12.99532, 77.6959], [12.99539, 77.69549], [12.99546, 77.69522], [12.99579, 77.69452], [12.99582, 77.69444], [12.996, 77.69404], [12.99613, 77.69374], [12.99624, 77.6934], [12.99639, 77.6929], [12.99673, 77.69194], [12.99685, 77.69163], [12.99696, 77.69136], [12.99726, 77.69069], [12.99792, 77.68937], [12.99807, 77.68903], [12.99815, 77.68888], [12.99826, 77.68874], [12.9985, 77.6885], [12.99875, 77.68829], [12.99899, 77.68806], [12.99918, 77.68788], [12.99947, 77.68757], [12.99964, 77.68735], [12.99987, 77.68698], [13.0, 77.68677], [13.00009, 77.68657], [13.00015, 77.68631], [13.00019, 77.68602], [13.00023, 77.68556], [13.00024, 77.68535], [13.00026, 77.68501], [13.00028, 77.68479], [13.00029, 77.68457], [13.00031, 77.68431], [13.00031, 77.68405], [13.00032, 77.68357], [13.00031, 77.68322], [13.0003, 77.68313], [13.00031, 77.68291], [13.00031, 77.68244], [13.00035, 77.6817], [13.00034, 77.68122], [13.00027, 77.68086], [13.0003, 77.68069], [13.00032, 77.68049], [13.00033, 77.67997], [13.00032, 77.67971], [13.00027, 77.67892], [13.0002, 77.67874], [13.0001, 77.67706], [13.00005, 77.67667], [12.99998, 77.67644], [12.99993, 77.67635], [12.99965, 77.67563], [12.99949, 77.67522], [12.99947, 77.67508], [12.99932, 77.67475], [12.99924, 77.67459], [12.99879, 77.67368], [12.99831, 77.67273], [12.99804, 77.67219], [12.99769, 77.67147], [12.99754, 77.67115], [12.99724, 77.67054], [12.99702, 77.67003], [12.99693, 77.66967], [12.99689, 77.66958], [12.9968, 77.66937], [12.9966, 77.66891], [12.9962, 77.66803], [12.9961, 77.66775], [12.99577, 77.66695], [12.99548, 77.66618], [12.99544, 77.66603], [12.99542, 77.66579], [12.99543, 77.66567], [12.99551, 77.66541], [12.99558, 77.66528], [12.99566, 77.66518], [12.99592, 77.66496], [12.99683, 77.66441], [12.9982, 77.66364], [12.99844, 77.66356], [13.00038, 77.6634], [13.0014, 77.66336], [13.00149, 77.66335], [13.00155, 77.6633], [13.00176, 77.66329], [13.00187, 77.66322], [13.00372, 77.66307], [13.00478, 77.66298], [13.00523, 77.66291], [13.00545, 77.66286], [13.00586, 77.66279], [13.00727, 77.66257], [13.0081, 77.66249], [13.00931, 77.6624], [13.00965, 77.66237], [13.0099, 77.66235], [13.01034, 77.66232], [13.01085, 77.66227], [13.01235, 77.66216], [13.01299, 77.66212], [13.01306, 77.66212], [13.01323, 77.66211], [13.01329, 77.6621], [13.01345, 77.66209], [13.01364, 77.66208], [13.01451, 77.66204], [13.01509, 77.662], [13.01562, 77.66195], [13.01591, 77.66189], [13.01609, 77.66183], [13.01623, 77.66174], [13.01632, 77.66164], [13.0164, 77.6615], [13.01673, 77.6607], [13.01689, 77.6603], [13.01722, 77.65947], [13.01747, 77.65887], [13.01784, 77.65801], [13.01865, 77.65614], [13.01892, 77.65555], [13.01896, 77.65546], [13.01898, 77.65526], [13.01894, 77.65482], [13.01901, 77.65464], [13.02082, 77.65062], [13.02103, 77.65011], [13.02171, 77.64855], [13.02187, 77.6482], [13.02201, 77.64787], [13.02222, 77.64742], [13.02243, 77.64742], [13.02269, 77.64683], [13.02281, 77.64635], [13.02409, 77.64338], [13.02414, 77.64329], [13.02453, 77.64329], [13.02465, 77.64328], [13.02473, 77.64333], [13.02516, 77.64343], [13.02546, 77.6435], [13.02583, 77.64359], [13.02628, 77.64373], [13.02678, 77.64368], [13.02714, 77.64359], [13.02737, 77.64353], [13.0276, 77.64347], [13.02783, 77.64337], [13.0279, 77.64328], [13.02795, 77.64293], [13.02797, 77.64287], [13.02801, 77.64247], [13.02803, 77.64232], [13.02804, 77.64226], [13.02808, 77.64214], [13.02759, 77.64187], [13.02743, 77.64173], [13.02739, 77.64158], [13.02749, 77.64137], [13.02713, 77.64136], [13.02712, 77.64177], [13.0268, 77.64176]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+        var popup_67627f136bf1f220828fb11bdceca162 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_edf0ed6bbe00df5ba706915bc90f7505 = $(`<div id="html_edf0ed6bbe00df5ba706915bc90f7505" style="width: 100.0%; height: 100.0%;">             <b>Route Info</b><br>             From: Whitefield Industrial Area<br>             To: Kalyan Nagar<br>             Distance: 17.34 km<br>             Duration: 24.2 min             </div>`)[0];
+                popup_67627f136bf1f220828fb11bdceca162.setContent(html_edf0ed6bbe00df5ba706915bc90f7505);
+            
+        
+
+        poly_line_163817409165dda054d181c7f8c5d6ed.bindPopup(popup_67627f136bf1f220828fb11bdceca162)
+        ;
+
+        
+    
+    
+            tile_layer_18a871b010e9541e025ddf08b3b20f02.addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+                marker_1871596f99d820f31c873219b71a5b60.setIcon(icon_13b133f8e6f88653b071e826de708c94);
+            
+    
+                marker_a347d37cc68d468a5957f8c07a142b3b.setIcon(icon_d14919e66305bcad63d7b9b29f12c3df);
+            
+    
+                marker_609503fbda1c0043d89065ce9bcfc764.setIcon(icon_099f524caf325b915e6ff8d81cba5d95);
+            
+    
+                marker_895b665fca259e55bc097d2bbf2d8ab2.setIcon(icon_a690ac4787bd4a9f2ec5446f6e988fdc);
+            
+    
+                marker_63cdf619320c6a76a5b131f5a89756a8.setIcon(icon_b552999d9c143c720b3a6406d3af715f);
+            
+    
+                marker_03b1d8a328e527da24d3fa602ae0510b.setIcon(icon_4899312458afabcc4da864f7d07c2f86);
+            
+    
+                marker_cfd57ea19b016c0e7a154cd6f26c69ec.setIcon(icon_5c98beeafd869c84d207360addc67132);
+            
+    
+                marker_d246506772f6ca7e629a8608e2e5c398.setIcon(icon_3ab3d3a9472e807e423e036079776fbf);
+            
+    
+                marker_885d4ff5e11ede6301c41601fe7b5ad7.setIcon(icon_6c0f940958f24e94bca193411d47360e);
+            
+    
+                marker_8ba6028b974040dbcc29de399b5db4bf.setIcon(icon_7ff1edc9069400545a66d7830005d599);
+            
+    
+                marker_0c3742a6bf23af935e7d8b000497c595.setIcon(icon_fc2e5a8af19308ea3cccdd909a1ebf15);
+            
+    
+                marker_ee4451f0596666c57cbdaa3fb035f9e3.setIcon(icon_be547f1164f85b057c76792f685e05c2);
+            
+    
+                marker_6ca6ed76dbb3a6e778afca7f1c9d2a6a.setIcon(icon_cfbf9689ad37c9ad7b4628df16bcc2b8);
+            
+    
+                marker_d245e75d2177f5b17a7f62cc1ebf2cbe.setIcon(icon_f70b349825d59bd42039506e1b34b986);
+            
+    
+                marker_9df0ed932778dfa294e8997d45aa6154.setIcon(icon_fbdf2a2498a4b4cd7b3690e8e42639af);
+            
+    
+                marker_5a73a236aab07405cb5b866f36e22160.setIcon(icon_32083fb734161c44e58d08ff9c0ed0b1);
+            
+    
+                marker_d17d98d03fedc1cae7be16233f2e4d3e.setIcon(icon_4c049cd2857fbf3e5a7cc26194be2225);
+            
+    
+                marker_6ad1eb5de054ac04badf4c901333558f.setIcon(icon_f81d5507c82445aee850032529e9ae89);
+            
+    
+                marker_eb375b0826e4495555610928330028a8.setIcon(icon_624c85a183ddd9d8b00061e37471e036);
+            
+    
+                marker_e050cabd65da19f115bb2e1c8fcc2120.setIcon(icon_ea1e75901f03b3ac169615dd0ecbe1ba);
+            
+    
+                marker_8c5bd14bafcd2a4027234a661e30e8c5.setIcon(icon_dcb4544e913e93cff5a7adbf6554968b);
+            
+    
+                marker_45fde48a1901fdbcaf3391732a4d8e5a.setIcon(icon_4c8a0bd627159744b93ef206960443a4);
+            
+    
+                marker_40121730094c3363325b08d38fe120be.setIcon(icon_d516e93e3948d82881c5f774132decfb);
+            
+    
+                marker_9cb4caf5243a77149d80bcb25b9ad3d8.setIcon(icon_dc86cb07363b0919fd632d5617685e7f);
+            
+    
+                marker_49d41805e9bf789171eaeb345caf50e0.setIcon(icon_4b290e2fcb96774fc734ae3bcf0d2cdd);
+            
+    
+            tile_layer_18a871b010e9541e025ddf08b3b20f02.addTo(map_d5b02c1caa0c4ce2a57582f1c5fc8162);
+        
+    
+                marker_1871596f99d820f31c873219b71a5b60.setIcon(icon_13b133f8e6f88653b071e826de708c94);
+            
+    
+                marker_a347d37cc68d468a5957f8c07a142b3b.setIcon(icon_d14919e66305bcad63d7b9b29f12c3df);
+            
+    
+                marker_609503fbda1c0043d89065ce9bcfc764.setIcon(icon_099f524caf325b915e6ff8d81cba5d95);
+            
+    
+                marker_895b665fca259e55bc097d2bbf2d8ab2.setIcon(icon_a690ac4787bd4a9f2ec5446f6e988fdc);
+            
+    
+                marker_63cdf619320c6a76a5b131f5a89756a8.setIcon(icon_b552999d9c143c720b3a6406d3af715f);
+            
+    
+                marker_03b1d8a328e527da24d3fa602ae0510b.setIcon(icon_4899312458afabcc4da864f7d07c2f86);
+            
+    
+                marker_cfd57ea19b016c0e7a154cd6f26c69ec.setIcon(icon_5c98beeafd869c84d207360addc67132);
+            
+    
+                marker_d246506772f6ca7e629a8608e2e5c398.setIcon(icon_3ab3d3a9472e807e423e036079776fbf);
+            
+    
+                marker_885d4ff5e11ede6301c41601fe7b5ad7.setIcon(icon_6c0f940958f24e94bca193411d47360e);
+            
+    
+                marker_8ba6028b974040dbcc29de399b5db4bf.setIcon(icon_7ff1edc9069400545a66d7830005d599);
+            
+    
+                marker_0c3742a6bf23af935e7d8b000497c595.setIcon(icon_fc2e5a8af19308ea3cccdd909a1ebf15);
+            
+    
+                marker_ee4451f0596666c57cbdaa3fb035f9e3.setIcon(icon_be547f1164f85b057c76792f685e05c2);
+            
+    
+                marker_6ca6ed76dbb3a6e778afca7f1c9d2a6a.setIcon(icon_cfbf9689ad37c9ad7b4628df16bcc2b8);
+            
+    
+                marker_d245e75d2177f5b17a7f62cc1ebf2cbe.setIcon(icon_f70b349825d59bd42039506e1b34b986);
+            
+    
+                marker_9df0ed932778dfa294e8997d45aa6154.setIcon(icon_fbdf2a2498a4b4cd7b3690e8e42639af);
+            
+    
+                marker_5a73a236aab07405cb5b866f36e22160.setIcon(icon_32083fb734161c44e58d08ff9c0ed0b1);
+            
+    
+                marker_d17d98d03fedc1cae7be16233f2e4d3e.setIcon(icon_4c049cd2857fbf3e5a7cc26194be2225);
+            
+    
+                marker_6ad1eb5de054ac04badf4c901333558f.setIcon(icon_f81d5507c82445aee850032529e9ae89);
+            
+    
+                marker_eb375b0826e4495555610928330028a8.setIcon(icon_624c85a183ddd9d8b00061e37471e036);
+            
+    
+                marker_e050cabd65da19f115bb2e1c8fcc2120.setIcon(icon_ea1e75901f03b3ac169615dd0ecbe1ba);
+            
+    
+                marker_8c5bd14bafcd2a4027234a661e30e8c5.setIcon(icon_dcb4544e913e93cff5a7adbf6554968b);
+            
+    
+                marker_45fde48a1901fdbcaf3391732a4d8e5a.setIcon(icon_4c8a0bd627159744b93ef206960443a4);
+            
+    
+                marker_40121730094c3363325b08d38fe120be.setIcon(icon_d516e93e3948d82881c5f774132decfb);
+            
+    
+                marker_9cb4caf5243a77149d80bcb25b9ad3d8.setIcon(icon_dc86cb07363b0919fd632d5617685e7f);
+            
+    
+                marker_49d41805e9bf789171eaeb345caf50e0.setIcon(icon_4b290e2fcb96774fc734ae3bcf0d2cdd);
+            
+</script>
+</html>
